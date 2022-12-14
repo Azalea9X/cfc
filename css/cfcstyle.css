@@ -1,0 +1,53 @@
+  .full {
+width: 100% !important;}
+
+.linone{
+list-style-type: none !important;}
+  
+  
+  main {
+    min-width: 600px;
+  max-width: 900px;}
+  
+  line-height: 1.5;}
+ 
+ h1, h2 {
+ width: 100%;}
+ 
+ p {
+ width: 100%;}
+ 
+ .left { 
+ text-align: left;}
+ 
+ .right { 
+ text-align: right;}
+ 
+  .center { 
+ text-align: center;}
+
+.justify {
+text-align: justify;}
+
+ blockquote{
+ line-height: 1.5; 
+ font-weight: 900; 
+ }
+
+cite{
+font-weight: bold; 
+text-decoration: italics;
+font-size: small;}
+
+.red {
+color: red !important; }
+
+h1{
+font-size: 20px !important;}
+
+h2 {
+font-size: 16px !important;}
+
+h2.red {
+color: red !important; 
+ }
