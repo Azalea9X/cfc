@@ -24,6 +24,24 @@ html {
 /*.ProductItem-related-label{
  position: relative !important; top: 20% !important;}
 */
+@media screen and (min-width: 300px) and (max-width:600px) {
+  #article img{
+    max-height: 500px !important;}
+  #article{max-width: 700px !important; margin-left: 5% !important; margin-right: 5% !important; position: relative !important; top: -27% !important;font-size: 16px !important; line-height: 2;   transform: translateY(-170px) !important;}
+
+
+  h2 {
+    transform: translateX(15%);
+  }
+  
+  #article img {
+    max-width: 400px 400px !important; max-height: 400px !important;
+  }
+  
+  h2.ProductItem-related-label, div.list-grid {position: relative; top: -180px;}
+  
+  }
+
 
 @media screen and (min-width: 600px) and (max-width:900px) {
   #article img{
