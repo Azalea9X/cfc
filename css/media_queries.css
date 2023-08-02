@@ -55,7 +55,7 @@ a, i {
 @media screen and (min-width: 41.9375rem) and (max-width: 53.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   #article img{
 }
-#article{position: relative; top: -14rem !important; margin-top: 10%;}
+#article{position: relative; top: -12rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
 h2, p{  text-align: center; max-width: 85%; margin-left: 3rem;
@@ -69,7 +69,7 @@ a, i {
 }
 
         
-        h2.ProductItem-related-label, div.list-grid {position: relative; top: -230px; left: px;}
+        h2.ProductItem-related-label, div.list-grid {position: relative; top: -200px; left: px;}
 
         a.header-skip-link sqs-button-element--primary {display: none;}
 
@@ -135,8 +135,10 @@ a, i {
      div.list-grid  {
        position: relative; left: -50px !important;
      }    
-            a.header-skip-link sqs-button-element--primary {display: none;}
-            div.list-grid {
+     nav a.header-skip-link {
+display: none !important;}
+     
+     div.list-grid {
               max-width: 100% !important; min-width: 98% !important; 
             }
             div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
@@ -179,30 +181,36 @@ a, i {
               /*Between 1451px and 1650px*/ 
               @media screen and (min-width: 90.6875rem) and (max-width: 103.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
 #article img{min-width: 50% !important; max-width: 60% !important; 
-                  position: relative; left: 2% !important;      }
+                  position: relative; left: -3% !important;      }
                         
                 
 #article{position: relative; top: -24rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -4% !important; }
 .ProductItem-nav{position: relative; top: -150px;}
                         
 h2, p{  text-align: center; max-width: 45%; margin-left: 6rem;
-                        }          
+                        }    
+                h2{font-size: 400%;}
+p{
+transform: translateX(-30px) !important;
+}
 a.header-skip-link sqs-button-element--primary{
 display: none !important;}
                       
 #article a, i {
   position: relative; position: relative; left: -7rem !important;}
                 
-h2.ProductItem-related-label, div.list-grid {min-width: 1000px;position: relative; top: -26rem; left: -18rem;}
+h2.ProductItem-related-label, div.list-grid {min-width: 800px;position: relative; top: -26rem; left: -13rem;}
 div.list-grid  {
-position: relative; left: -16% !important;
-max-width: 100% !important; min-width: 98% !important; 
-
+position: relative; left: -22% !important;
+max-width: 60% !important; min-width: 98% !important; 
+transform: scaleX(.8) !important;
 }    
 
-div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
-  display: block !important; max-width: 100% !important; min-width: 98% !important;
+div.list-grid img {min-height: 800px !important; max-height: 500px !important; 
+  display: block !important; max-width: 80% !important; min-width: 78% !important;
 }
+
+                
 a.header-skip-link sqs-button-element--primary {display: none;}
             }
 
