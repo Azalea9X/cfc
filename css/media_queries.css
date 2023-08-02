@@ -346,20 +346,22 @@ a, i {
 
         
         h2.ProductItem-related-label, div.list-grid {position: relative; top: -200px; left: px; max-width: 100% !important;}
-        div.list-grid img {
-          min-width: 98% !important; max-width: 100% !important; max-height: 300px !important;
+       div.list-grid {
+          transform: translateY(-10rem) !important; max-width: 100% !important; min-width: 98% !important;  transform: scaleY(.8);
         }
-        div.list-grid {
-          max-width: 100% !important; min-width: 98% !important; 
+        div.list-grid img {max-width: 300px !important; !important;  
+           min-height: 800px !important; transform:scaleY(.8) !important; display: block !important; max-width: 100% !important; min-width: 98% !important; margin-bottom: 50px !important; margin-top: 25px !important;
         }
-
         }
       
 /*Between 671px and 850px*/ 
 @media screen and (min-width: 41.9375rem) and (max-width: 53.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+ a.header-skip-link {display: none !important;}
+
+  
   #article img{
 }
-#article{position: relative; top: -14rem !important; margin-top: 10%;}
+#article{position: relative; top: -12rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
 h2, p{  text-align: center; max-width: 85%; margin-left: 3rem;
@@ -378,10 +380,10 @@ a, i {
         a.header-skip-link sqs-button-element--primary {
         display: none;}
         div.list-grid {
-          max-width: 100% !important; min-width: 98% !important; 
+          transform: translateY(-10rem) !important; max-width: 100% !important; min-width: 98% !important;  transform: scaleY(.8);
         }
-        div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
-          display: block !important; max-width: 100% !important; min-width: 98% !important;
+        div.list-grid img {max-width: 300px !important; !important; max-height: 500px !important; 
+           min-height: 700px !important; transform:scaleY(.6) !important; display: block !important; max-width: 100% !important; min-width: 98% !important; margin-bottom: 50px !important; margin-top: 25px !important;
         }
 }
       
@@ -389,53 +391,56 @@ a, i {
 
         /*Between 851px and 1050px*/ 
 @media screen and (min-width: 53.1875rem) and (max-width: 65.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-  #article img{
+  #article img{ min-width: 30% !important; max-width: 80% !important; position: relative; left: 5%; 
 }
-#article{position: relative; top: -11rem !important; margin-top: 10%;}
+#article{position: relative; top: -13rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
-h2, p{  text-align: center; max-width: 85%; margin-left: 3rem;
+h2, p{  text-align: center; max-width: 65%; margin-left: 5rem;
 }          
 a.header-skip-link sqs-button-element--primary{
   display: none !important;
 }
 
-a, i {
-  position: relative; left: -0% !important;
+#article a, #article i {
+  position: relative; left: -100% !important;
 }
 
         
-        h2.ProductItem-related-label, div.list-grid {position: relative; top: -180px; left: px;}
+        h2.ProductItem-related-label, div.list-grid {position: relative; top: -220px; left: px;}
 
         a.header-skip-link sqs-button-element--primary {display: none;}
-        div.list-grid {max-width: 50% !important; }
-        div.list-grid img {max-height: 500px !important;}
+        div.list-grid {max-width:100% !important;left: -2%; }
+        div.list-grid img {min-height: 700px !important; max-height: 800px !important;}
+  
 }
         
    /*Between 1051px and 1250px*/ 
    @media screen and (min-width: 65.6875rem) and (max-width: 78.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-      #article img{min-width: 80% !important; max-width: 60vw !important; 
+      #article img{min-width: 30% !important; max-width: 60% !important; position: relative; left: 5% !important; 
     }
-    #article{position: relative; top: -17rem !important; min-width: 800px !important; max-width: 1051px !important; margin-top: 10%;}
-    .ProductItem-nav{position: relative; top: -100px;}
+    #article{position: relative !important; top: -17rem !important; min-width: 800px !important; max-width: 1051px !important; margin-top: 10%; transform: translateX(5%) !important;}
+    .ProductItem-nav{position: relative; top: -100px; }
     
-    h2, p{  text-align: center; max-width: 65%; margin-left: 3rem;
+    h2, p{  text-align: center; max-width: 65%; margin-left: 1rem;
     }          
     a.header-skip-link sqs-button-element--primary{
       display: none !important;
     }
   
    #article a, i {
-      position: relative; left: -155% !important;
+      position: relative; left: -275% !important;
     }
   
             
-            h2.ProductItem-related-label, div.list-grid {position: relative; top: -290px; left: -10px;}
+            h2.ProductItem-related-label, div.list-grid {position: relative; top: -290px; left: 25px;}
      div.list-grid  {max-width: 100% !important; min-width: 98% !important;
-       position: relative; left: -50px !important;
+       position: relative; left: -5rem !important;
      }    
             a.header-skip-link sqs-button-element--primary {display: none;}
-  }
+  
+
+}
 
       /*Between 1251px and 1450px*/ 
       @media screen and (min-width: 78.1875rem) and (max-width: 90.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
@@ -458,9 +463,12 @@ a, i {
       
                 
                 h2.ProductItem-related-label, div.list-grid {position: relative; top: -24rem; left: -10px;}
-         div.list-grid  {max-width: 100% !important; min-width: 98% !important; 
+         div.list-grid  {max-width: 90% !important; min-width: 60% !important; 
            position: relative; left: -16% !important;
-         }    
+         }
+        div.list-grid img {min-height: 700px !important;display: inline-block;
+          max-height: 700px !important;margin-right: 100px !important;
+        }
 
                 a.header-skip-link sqs-button-element--primary {display: none;}
       }
@@ -468,41 +476,35 @@ a, i {
               /*Between 1451px and 1650px*/ 
               @media screen and (min-width: 90.6875rem) and (max-width: 103.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
 #article img{min-width: 50% !important; max-width: 60% !important; 
-                  position: relative; left: 2% !important; transform: translate(-2rem, -7rem) scale(.8, .6) !important;  }
+                  position: relative; left: -3% !important;      }
                         
                 
-#article{position: relative;  top: -25rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -8% !important; }
+#article{position: relative; top: -24rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -4% !important; }
 .ProductItem-nav{position: relative; top: -150px;}
                         
-#article h2, #article p{  text-align: center; max-width: 45%; margin-left: 6rem;
-                }
-                #article p  {
-                  position: relative; top: -13rem !important;
-                }
-                
-                #article i, #article a{
-  position: relative; top: -6rem !important;
-                  
+#article h2, #article p{  text-align: center; max-width: 45%;
+                        }    
+#article h2, #article p{
+transform: translateX(5rem) !important;
                 }
                 
-h2{
-    font-size: 400% !important;
-  }                        }          
+#article p {transform: translateX(2rem) !important;}
+
+#article h2, h2{font-size: 300% !important;}
+h2{position: relative; left: -90px !important;}
+                
 a.header-skip-link sqs-button-element--primary{
 display: none !important;}
                       
 #article a, i {
   position: relative; position: relative; left: -7rem !important;}
                 
-h2.ProductItem-related-label, div.list-grid {font-size: 300% !important; min-width: 1000px;position: relative; top: -26rem; left: -18rem;}
-        div.list-grid  {max-width: 50% !important; min-width: 98% !important; 
-position: relative; left: -25% !important;transform: scaleX(.7) !important; top: -30% !important;
-        }
-h2.ProductItem-related-label{
-  position: relative; left: -10% !important; top: -30% !important; 
-}
-
-div.list-grid img {min-height: 700px !important; max-height: 500px !important; 
+h2.ProductItem-related-label, div.list-grid {min-width: 1000px;position: relative; top: -26rem; left: -18rem;}
+        div.list-grid  {max-width: 80% !important; min-width: 98% !important; 
+position: relative; left: -25% !important;transform: scaleX(.7) !important;
+          }
+                
+div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
 display: block !important; max-width: 100% !important; min-width: 98% !important;
 max-height: 500px !important;}
 a.header-skip-link sqs-button-element--primary {display: none;}
