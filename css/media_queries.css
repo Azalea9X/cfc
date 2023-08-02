@@ -138,3 +138,53 @@ text-align: center;
            }    
                   a.header-skip-link sqs-button-element--primary {display: none;}
         }
+
+                /*Between 1251px and 1450px*/ 
+                @media screen and (min-width: 78.1875rem) and (max-width: 90.625rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+                  #article img{min-width: 80% !important; max-width: 60vw !important; 
+                }
+                #article{position: relative; top: -21rem !important; min-width: 1000px !important; max-width: 1251px !important; margin-top: 10%; left: -8% !important; }
+                .ProductItem-nav{position: relative; top: -150px;}
+                
+                h2, p{  text-align: center; max-width: 65%; margin-left: 3rem;
+                }          
+                a.header-skip-link sqs-button-element--primary{
+                  display: none !important;
+                }
+              
+               #article a, i {
+                  position: relative; left: -155% !important;
+                }
+              
+                        
+                        h2.ProductItem-related-label, div.list-grid {position: relative; top: -330px; left: -10px;}
+                 div.list-grid  {
+                   position: absolute; left: -15% !important;
+                 }    
+                        a.header-skip-link sqs-button-element--primary {display: none;}
+              }
+
+                      /*Between 1451px and 1650px*/ 
+        @media screen and (min-width: 78.1875rem) and (max-width: 90.625rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+          #article img{min-width: 80% !important; max-width: 80vw !important; 
+        }
+        #article{position: relative; top: -26rem !important; min-width: 1400px !important; max-width: 1651px !important; margin-top: 10%; left: -8% !important; }
+        .ProductItem-nav{position: relative; top: -250px;}
+        
+        h2, p{  text-align: center; max-width: 65%; margin-left: 3rem;
+        }          
+        a.header-skip-link sqs-button-element--primary{
+          display: none !important;
+        }
+      
+       #article a, i {
+          position: relative; left: -155% !important;
+        }
+      
+                
+                h2.ProductItem-related-label, div.list-grid {position: relative; top: -330px; left: -10px;}
+         div.list-grid  {
+           position: absolute; left: -15% !important;
+         }    
+                a.header-skip-link sqs-button-element--primary {display: none;}
+      }
