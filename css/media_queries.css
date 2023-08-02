@@ -468,25 +468,41 @@ a, i {
               /*Between 1451px and 1650px*/ 
               @media screen and (min-width: 90.6875rem) and (max-width: 103.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
 #article img{min-width: 50% !important; max-width: 60% !important; 
-                  position: relative; left: 2% !important;      }
+                  position: relative; left: 2% !important; transform: translate(-2rem, -7rem) scale(.8, .6) !important;  }
                         
                 
-#article{position: relative; top: -24rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -4% !important; }
+#article{position: relative;  top: -25rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -8% !important; }
 .ProductItem-nav{position: relative; top: -150px;}
                         
-h2, p{  text-align: center; max-width: 45%; margin-left: 6rem;
-                        }          
+#article h2, #article p{  text-align: center; max-width: 45%; margin-left: 6rem;
+                }
+                #article p  {
+                  position: relative; top: -13rem !important;
+                }
+                
+                #article i, #article a{
+  position: relative; top: -6rem !important;
+                  
+                }
+                
+h2{
+    font-size: 400% !important;
+  }                        }          
 a.header-skip-link sqs-button-element--primary{
 display: none !important;}
                       
 #article a, i {
   position: relative; position: relative; left: -7rem !important;}
                 
-h2.ProductItem-related-label, div.list-grid {min-width: 1000px;position: relative; top: -26rem; left: -18rem;}
+h2.ProductItem-related-label, div.list-grid {font-size: 300% !important; min-width: 1000px;position: relative; top: -26rem; left: -18rem;}
         div.list-grid  {max-width: 50% !important; min-width: 98% !important; 
-position: relative; left: -25% !important;transform: scaleX(.7) !important;
+position: relative; left: -25% !important;transform: scaleX(.7) !important; top: -30% !important;
         }
-div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
+h2.ProductItem-related-label{
+  position: relative; left: -10% !important; top: -30% !important; 
+}
+
+div.list-grid img {min-height: 700px !important; max-height: 500px !important; 
 display: block !important; max-width: 100% !important; min-width: 98% !important;
 max-height: 500px !important;}
 a.header-skip-link sqs-button-element--primary {display: none;}
