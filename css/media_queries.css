@@ -2,6 +2,7 @@ html {
   font-size: 16px !important;
 }
 /*For portrait mode*/
+/*Note for the links, target i.fa.fa-link, i.fa.fa-instagram, etc*/
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   #article img{
@@ -145,6 +146,25 @@ display: none !important;}
               display: block !important; max-width: 100% !important; min-width: 98% !important;
             }
     
+
+i.fa.fa-instagram {
+transform: translate(-.8rem) !important;
+}
+     
+          i.fa.fa-link {transform: translate(-.45rem) !important;
+}
+
+i.fa.fa-envelope {
+
+}
+     i.fa.fa-phone{
+       transform: translate(-.8rem) !important;
+     }
+i.fa.fa-map-marker {
+transform: translate(-1.7rem) !important;
+
+}
+     
   }
 
       /*Between 1251px and 1450px*/ 
@@ -352,6 +372,17 @@ a, i {
         div.list-grid img {max-width: 300px !important; !important;  
            min-height: 800px !important; transform:scaleY(.8) !important; display: block !important; max-width: 100% !important; min-width: 98% !important; margin-bottom: 50px !important; margin-top: 25px !important;
         }
+  #article p {
+    min-width: 110% !important; 
+    position: relative; left: -4rem !important;
+  }
+  
+  #article i.fa {
+    margin-bottom: 50px;
+  }
+  h2:not(#article h2) {
+    transform: translateY(-3rem) !important;
+  }
         }
       
 /*Between 671px and 850px*/ 
@@ -364,8 +395,11 @@ a, i {
 #article{position: relative; top: -12rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
-h2, p{  text-align: center; max-width: 85%; margin-left: 3rem;
+h2, p{  text-align: left; max-width: 85%; margin-left: 3rem;
 }          
+  
+
+  
 a.header-skip-link sqs-button-element--primary{
   display: none !important;
 }
@@ -384,7 +418,25 @@ a, i {
         }
         div.list-grid img {max-width: 300px !important; !important; max-height: 500px !important; 
            min-height: 700px !important; transform:scaleY(.6) !important; display: block !important; max-width: 100% !important; min-width: 98% !important; margin-bottom: 50px !important; margin-top: 25px !important;
-        }
+  }
+  
+  #article h2 {
+    min-width: 900px !important;
+   }
+  #article p{
+   position: relative; left: -3rem !important; min-width: 100% !important;
+  } 
+  #article i.fa {
+    margin-bottom: 30px;
+  }
+  
+  h2 {min-width: 150% !important; transform: scaleX(.7) translateX(-15rem) !important;}
+  #article h2 {
+    transform: translateX(.8rem) !important;
+
+  }
+  
+  
 }
       
    
@@ -396,8 +448,15 @@ a, i {
 #article{position: relative; top: -13rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
-h2, p{  text-align: center; max-width: 65%; margin-left: 5rem;
-}          
+h2, p{  text-align: left; max-width: 82% !important; margin-left: 5rem;
+}       
+  
+  p {
+    position: relative; left: -3rem !important; text-align: left;
+  }
+  h2{
+    min-width: 600px !important; transform: scaleX(.8) translateX(-5rem) !important;
+  }
 a.header-skip-link sqs-button-element--primary{
   display: none !important;
 }
@@ -412,18 +471,49 @@ a.header-skip-link sqs-button-element--primary{
         a.header-skip-link sqs-button-element--primary {display: none;}
         div.list-grid {max-width:100% !important;left: -2%; }
         div.list-grid img {min-height: 700px !important; max-height: 800px !important;}
-  
+i.fa.fa-link {transform: translateX(-.5rem) !important; }
+
+
+i.fa.fa-instagram {
+transform: translateX(-.9rem) !important;
+}
+
+i.fa.fa-envelope-o {
+transform: translateX(-.5rem) !important;
+}
+
+i.fa.fa-phone{
+transform: translateX(-1.3rem) !important;
+}
+
+i.fa.fa-map-marker{
+transform: translateX(-2.0rem) !important;
+}
+
+  i.fa{}
+
 }
         
    /*Between 1051px and 1250px*/ 
    @media screen and (min-width: 65.6875rem) and (max-width: 78.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
       #article img{min-width: 30% !important; max-width: 60% !important; position: relative; left: 5% !important; 
     }
+
     #article{position: relative !important; top: -17rem !important; min-width: 800px !important; max-width: 1051px !important; margin-top: 10%; transform: translateX(5%) !important;}
     .ProductItem-nav{position: relative; top: -100px; }
-    
-    h2, p{  text-align: center; max-width: 65%; margin-left: 1rem;
+     #article h2{
+       min-width: 800px !important; transform: scaleX(.8) translate(-5.5rem, 0rem)
+     }
+    #article h2, #article p{  text-align: ; max-width: 65%; margin-left: 1rem;
     }          
+     #article p {
+       max-width: 400px !important; position: relative; left: 100px !important;
+     }
+     #article i.fa {
+       position: relative; left: -1.5rem !important;
+     }
+     
+     
     a.header-skip-link sqs-button-element--primary{
       display: none !important;
     }
@@ -438,7 +528,25 @@ a.header-skip-link sqs-button-element--primary{
        position: relative; left: -5rem !important;
      }    
             a.header-skip-link sqs-button-element--primary {display: none;}
-  
+  i.fa.fa-link { }
+
+
+i.fa.fa-instagram {
+transform: translateX(-.9rem) !important;
+}
+
+i.fa.fa-envelope-o {
+transform: translateX(-.3rem) !important;
+}
+
+i.fa.fa-phone{
+transform: translateX(-1.7rem) !important;
+}
+
+i.fa.fa-map-marker{
+transform: translateX(-3.5rem) !important;
+}
+     
 
 }
 
@@ -446,13 +554,19 @@ a.header-skip-link sqs-button-element--primary{
       @media screen and (min-width: 78.1875rem) and (max-width: 90.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
           #article img{min-width: 50% !important; max-width: 60% !important; 
   position: relative; left: 8% !important;      }
-        
+        #article h2 {
+          min-width: 800px !important; transform: scaleX(.8) translate(-5rem, 1rem) !important;
+        }
 
         #article{position: relative; top: -24rem !important; min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -8% !important; }
         .ProductItem-nav{position: relative; top: -150px;}
         
         h2, p{  text-align: center; max-width: 65%; margin-left: 3rem;
         }          
+        p{
+          max-width: 500px !important;
+          position: relative; left: 80px !important;
+        }
         a.header-skip-link sqs-button-element--primary{
           display: none !important;
         }
@@ -471,6 +585,26 @@ a.header-skip-link sqs-button-element--primary{
         }
 
                 a.header-skip-link sqs-button-element--primary {display: none;}
+                i.fa.fa-link { }
+
+
+                i.fa.fa-instagram {
+                transform: translateX(-.6rem) !important;
+                }
+                
+        i.fa.fa-envelope-o{
+         
+        }
+                  
+                i.fa.fa-phone{
+                transform: translateX(-1.7rem) !important;
+                }
+                
+                i.fa.fa-map-marker{
+                transform: translateX(-3.5rem) !important;
+                }
+        
+
       }
 
               /*Between 1451px and 1650px*/ 
@@ -479,7 +613,7 @@ a.header-skip-link sqs-button-element--primary{
                   position: relative; left: -3% !important;      }
                         
                 
-#article{position: relative; top: -24rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: -4% !important; }
+#article{position: relative; top: -24rem !important;  min-width: 1000px !important; max-width: 1151px !important; margin-top: 10%; left: 20% !important; }
 .ProductItem-nav{position: relative; top: -150px;}
                         
 #article h2, #article p{  text-align: center; max-width: 45%;
@@ -508,7 +642,27 @@ div.list-grid img {min-height: 400px !important; max-height: 500px !important;
 display: block !important; max-width: 100% !important; min-width: 98% !important;
 max-height: 500px !important;}
 a.header-skip-link sqs-button-element--primary {display: none;}
-            }
+         
+       i.fa.fa-link { }
+
+
+                i.fa.fa-instagram {
+                transform: translateX(-.6rem) !important;
+                }
+                
+        i.fa.fa-envelope-o{
+         transform: translateX(-1rem) !important;
+        }
+                  
+                i.fa.fa-phone{
+                transform: translateX(-1.7rem) !important;
+                }
+                
+                i.fa.fa-map-marker{
+                transform: translateX(-2.2rem) !important;
+                }
+        
+}
 
                     /*Between 1651px and 1850px*/ 
       @media screen and (min-width: 103.1875rem) and (max-width: 115.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
@@ -549,7 +703,28 @@ position: relative; left: -25% !important;transform: scaleX(.7) !important;
 
 
 a.header-skip-link sqs-button-element--primary {display: none;}
-           }
+i.fa.fa-link { }
+
+
+                i.fa.fa-instagram {
+                transform: translateX(-.6rem) !important;
+                }
+                
+        i.fa.fa-envelope-o{
+         transform: translateX(-1rem) !important;
+        }
+                  
+                i.fa.fa-phone{
+                transform: translateX(-1.7rem) !important;
+                }
+                
+                i.fa.fa-map-marker{
+                transform: translateX(-2.2rem) !important;
+                }
+        
+        
+
+}
  
 
 /*Between 1851px and 2000px*/ 
@@ -589,5 +764,23 @@ a.header-skip-link sqs-button-element--primary {display: none;}
     div.list-grid img {min-height: 600px !important; max-height: 500px !important; 
     display: block !important; max-width: 100% !important; min-width: 98% !important;
     max-height: 500px !important;}
-    }  a.header-skip-link sqs-button-element--primary {display: none;}
+i.fa.fa-link { }
+
+
+                i.fa.fa-instagram {
+                transform: translateX(-.6rem) !important;
+                }
+                
+        i.fa.fa-envelope-o{
+         transform: translateX(-1rem) !important;
+        }
+                  
+                i.fa.fa-phone{
+                transform: translateX(-1.7rem) !important;
+                }
+                
+                i.fa.fa-map-marker{
+                transform: translateX(-2.2rem) !important;
+                }    
+}  a.header-skip-link sqs-button-element--primary {display: none;}
                
