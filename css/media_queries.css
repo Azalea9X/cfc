@@ -340,16 +340,24 @@ text-align: center;
       max-width: 400px 400px !important; max-height: 400px !important;
     }
     
-    h2.ProductItem-related-label, div.list-grid {position: relative; top: -180px; max-width: 100% !important;}
+    h2.ProductItem-related-label, div.list-grid {position: relative; top: -17rem; max-width: 100% !important;}
     div.list-grid {
       max-width: 100% !important; min-width: 98% !important; 
     }
     div.list-grid img {min-height: 400px !important; max-height: 500px !important; 
       display: block !important; max-width: 100% !important; min-width: 98% !important; max-height: 400px !important;
     }
-
+  #article p {
+    min-width: 108% !important; text-align: left; transform: translateX(-.2rem) !important;
+  }
+  
+ 
+  
+  #article, #article:after {transform: translateY(-5rem) !important;}
 
 }
+
+
 
 /*601px and 660px*/
 @media screen and (min-width: 37.56rem) and (max-width: 41.875rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
@@ -383,6 +391,11 @@ a, i {
   h2:not(#article h2) {
     transform: translateY(-3rem) !important;
   }
+  
+  #article {
+    transform: translateY(-100px) !important;
+  }
+
         }
       
 /*Between 671px and 850px*/ 
