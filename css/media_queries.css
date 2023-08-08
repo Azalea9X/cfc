@@ -6,7 +6,7 @@ html {
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   #article {
-    transform: translateY(-18rem) !important;
+    transform: translateY(-1rem) !important;
   }
   #article img{transform: translateX(-10%) !important;
   min-width: 80vw !important; max-width: 105% !important;}
@@ -43,23 +43,41 @@ text-align: left;
   i.fa {
     transform: translateX(-3rem) !important; margin-bottom: 7rem !important;
   }
+  #article {
+    margin-bottom: 17rem !important;
+  }
 
+   h2.ProductItem-related-label, div.list-grid {}  
+        }
+div.list-grid{ margin-left: -5% !important;
+  
 }
+          div.list-grid img {
+          min-width: 350px !important; max-width: 100% !important; max-height: 300px !important;max-width: 500px !important; 
+       margin-left: -8% !important;    }
 
 /*601px and 660px*/
 @media screen and (min-width: 37.56rem) and (max-width: 41.875rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  * 
   #article img{
-      min-width: 90% !important; max-width: 600px !important;    max-height: 500px !important; position: relative; left: -4.5rem !important;}
+      min-width: 90% !important; max-width: 600px !important;    max-height: 500px !important; position: relative; left: -6.5rem !important;}
         #article{min-width: 90% !important; max-width:100% !important; margin-left: 10% !important; margin-right: 5% !important; position: relative !important; top: -27% !important;font-size: 16px !important; line-height: 2; position: relative; top: -180px !important; margin-bottom: 10% !important: }
 h2, p {
-  text-align: center; max-width: 85%;
+  text-align: left; max-width: 102%;
 }          
 
-a, i {
-  position: relative; left: -80% !important;
+#article p {
+  transform: translateX(-5.5rem) !important;
 }
 
-        
+#article h2{
+  min-width: 600px !important; transform: scaleX(.8) translateX(-10rem) !important;
+}
+a, i.fa {
+  position: relative; left: -180% !important;
+}
+
+/*Note to self- I need to target the individual icons, as I have in previous media queries*/         
         h2.ProductItem-related-label, div.list-grid {position: relative; top: -200px; left: px;  min-width: 98% !important;
         }
 
@@ -71,19 +89,32 @@ a, i {
       
 /*Between 671px and 850px*/ 
 @media screen and (min-width: 41.9375rem) and (max-width: 53.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-  #article img{
+  #article img{max-width: 671px !important; min-width: 600px !important; max-height: 500px !important;
 }
+a.header-skip-link {display: none !important;}
 #article{position: relative; top: -12rem !important; margin-top: 10%;}
 .ProductItem-nav{position: relative; top: -50px;}
 
-h2, p{  text-align: center; max-width: 85%; margin-left: 3rem;
-}          
+h2, p{  text-align: left; max-width: 102%; 
+}    
+
+h2:not(#article h2) {
+  margin-left: -11%; min-width: 690px !important; transform: scaleX(.7) translateY(-1rem) !important;
+}
+
+#article p {
+transform: translateX(1.5rem) !important;  max-width:32rem !important;
+}
 a.header-skip-link sqs-button-element--primary{
   display: none !important;
 }
 
 a, i {
   position: relative; left: -0% !important;
+}
+
+i.fa {
+  transform: translateX(-150%) !important;
 }
 
         
