@@ -5,27 +5,44 @@ html {
 /*Note for the links, target i.fa.fa-link, i.fa.fa-instagram, etc*/
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-  #article img{
+  #article {
+    transform: translateY(-18rem) !important;
+  }
+  #article img{transform: translateX(-10%) !important;
   min-width: 80vw !important; max-width: 105% !important;}
     #article{max-width: 700px !important; margin-left: 5% !important; margin-right: 5% !important; position: relative !important; top: -45% !important;font-size: 16px !important; line-height: 2; position: relative; top: -140px !important; margin-bottom: 5%;}
   
   
     h2, p {
-text-align: center;
+text-align: left;
     }
+
+  h2, #article h2{
+    max-width: 100% !important; font-size: 2.5rem !important;
+  min-width: 390px !important;}
+
+  #article p {
+    transform: translateX(-2rem) !important; min-width: 90% !important; max-width: 110% !important;
+  margin-bottom: 2rem !important;}
     
     #article img {
-      max-width: 400px 400px !important; max-height: 400px !important;
+      max-width: 400px !important; max-height: 400px !important;
     }
     
     h2.ProductItem-related-label, div.list-grid {position: relative; top: -180px;}
-    div.list-grid {
-      min-width: 98% !important;
+    h2.ProductItem-related-label{
+      position: relative; top: -35rem !important; margin-bottom: 5rem !important;
+    }
+  div.list-grid {
+      min-width: 98% !important; transform: translateY(-25rem) !important;
     }
     div.list-grid img {
       min-width: 98% !important; max-width: 100% !important; max-height: 300px !important;
     }
 
+  i.fa {
+    transform: translateX(-3rem) !important; margin-bottom: 7rem !important;
+  }
 
 }
 
