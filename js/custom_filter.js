@@ -62,9 +62,9 @@ window.customFilterSettings = {
                     sort: 'asc', // may be asc, desc, asAllowed (need define options list in allowedOptions), or your own custom function
                     getAttr: 'categories'// here you say Filter to look for options in items categories
                 }, {
-					name: "Tags",
+					name: "Categories",
 					multiple: true,
-					getAttr: "tags"
+					getAttr: "categories"
 				},
                 {
 					name: "Availability",
