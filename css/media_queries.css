@@ -20,33 +20,25 @@ html {
 
 /*601px and 660px*/
 @media screen and (min-width: 37.56rem) and (max-width: 41.875rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-  #article img{
-      min-width: 90% !important; max-width: 130% !important;    max-height: 500px !important; position: relative; left: -6rem !important;}
-        #article{min-width: 90% !important; max-width:100% !important; margin-left: 10% !important; margin-right: 5% !important; position: relative !important; top: -27% !important;font-size: 16px !important; line-height: 2; position: relative; top: -12.5rem !important; margin-bottom: 10% !important: }
-h2, p {
-  text-align: left; 
-
+  #article {
+    position: relative; top: -10rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 100px !important;
   }
-  #article P {
-    transform: translateX(-2.0rem) scaleX(1.2) !important
-  }          
-  h2:not(#article h2) {
-    min-width: 950px !important; transform: scaleX(.7) translateX(-15rem) !important;
+  
+  #article * {max-width: 106% !important;}
+  #article img {
+    margin-bottom: 50px !important;
   }
+  #article p {text-align: left !important; position: relative; left: 10% !important; min-width: 600px !important; margin-bottom: 150px !important;}
+  h2.ProductItem-related-label, div.list-grid {
+    position: relative; left: 11rem !important;
+  }        
+  div.list-grid * {position: relative !important; left: 7rem !important;}
 
-a, i {
-  position: relative; left: -80% !important;
+  i.fa {
+    position: relative; top: -8rem !important; left: 8rem !important;
+  }
 }
 
-        
-        h2.ProductItem-related-label, div.list-grid {position: relative; top: -200px; left: px;  min-width: 98% !important;
-        }
-
-          div.list-grid img {
-          min-width: 98% !important; max-width: 100% !important; max-height: 300px !important; 
-        }
-        
-        }
       
 /*Between 671px and 850px*/ 
 @media screen and (min-width: 41.9375rem) and (max-width: 53.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
