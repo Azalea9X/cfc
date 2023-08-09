@@ -455,4 +455,445 @@ a.ProductItem-nav-breadcrumb-link, span.ProductItem-nav-breadcrumb-separator {po
 
 /*For landscape mode*/
 
+@media screen and (min-width: 301px) and (max-width: 600px) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  #article {min-width: 301px !important; max-width: 600px !important; margin-bottom: 30px !important; position: relative; top: -8rem !important;}
+ 
+  
+  #article p {position: relative; left: -2% !important; top: 4% !important; min-width: 350px !important; max-width: 700px 1important; }
+   h2.ProductItem-related-label{position: relative; left: 3% !important; width: 120% !important;max-width: 103vw !important;}
+  div.grid-title{
+  font-size: 200% !important;
+  }
+  #article img {
+    position: relative; left: -3% !important;
+  }
+  #article h2 {
+    min-width: 450px !important;transform: scaleX(.8) translateX(-3.5rem) !important; 
+  }
+  div.list-grid, h2.ProductItem-related-label{
+transform: translateY(-11rem) !important; position: relative; left: -.5rem !important;
+  }
 
+  i.fa {
+    transform: scale(2) !important; padding: 30px !important;
+  }
+
+} 
+
+
+
+/*601px and 660px*/
+@media screen and (min-width: 37.56rem) and (max-width: 41.875rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  #article {
+    position: relative; top: -10rem !important; left: 0rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 100px !important;
+  }
+  #article h2 {
+    transform: translateX(2rem) !important;
+  }
+  #article * {max-width: 106% !important;}
+  #article img {
+    margin-bottom: 50px !important;
+  }
+  #article p {text-align: left !important; position: relative; left: 0% !important; font-size: 180% !important; min-width: 600px !important; margin-bottom: 40px !important;}
+  h2.ProductItem-related-label, div.list-grid {
+    position: relative; left: 15rem !important;
+  }        
+
+  h2.ProductItem-related-label {position: relative; left: 2rem !important; font-size: 300% !important; transform: translateY(-18rem) !important;}
+  div.list-grid {
+    transform: translate(-14rem, -17rem) !important;
+  } 
+  div.list-grid {
+    transform: translate(-15rem, -15rem) !important;
+  }
+
+  i.fa {
+    margin-top: 30px !important; position: relative; top: -2rem !important; left: -3rem !important;
+transform: scale(3) !important; padding: 3rem !important;
+  }
+}
+
+      
+/*Between 661px and 850px*/ 
+@media screen and (min-width: 41.9125rem) and (max-width: 53.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  #article {
+position: relative; top: -13rem !important; left: 3rem !important;
+  margin-bottom: 10rem !important;}
+
+.burger-inner {
+  transform: translateX(-30rem) scale(3) !important;
+
+margin-bottom: 30px !important;}
+
+  #article * {max-width: 90% !important; }
+  #article img {
+    margin-bottom: 50px !important; transform: translateX(-2.5rem) !important;
+  }
+  h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+  #article p {position: relative; left: -7.0% !important; font-size: 150% !important;top: -20px !important;min-width: 95% !important; margin-bottom: 20px !important;}
+  #article h2{min-width: 800px !important; transform: translateX(-1.5rem) scaleX(.8) !important;}
+
+  h2.ProductItem-related-label, div.list-grid {margin-bottom: 10px;
+    position: relative; left: 0rem !important; top: -25rem !important;
+  }        
+  
+  h2.ProductItem-related-label{
+    min-width: 155% !important; transform: scaleX(.9) translateX(-5rem) translateY(-2rem) !important 
+  }
+  i.fa {
+    position: relative; top: -2rem !important; left: -6.6rem !important; transform: scale(3) !important; padding: 50px !important;;
+  }
+  .grid-title {
+    font-size: 300% !important; margin-left: 3rem !important;
+  }
+}
+              
+   /*Between 851px and 1050px*/ 
+   @media screen and (min-width: 53.1875rem) and (max-width: 65.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+    .burger-inner {
+      transform: translateX(-30rem) translateY(5rem) scale(4) !important;
+    }
+     #article {
+margin-top: 100px !important;    position: relative; top: -12rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 300px !important;
+  }
+
+  #article * {max-width: 106% !important;}
+  #article img {
+transform: translateX(-4rem) !important;    margin-bottom: 50px !important;
+  }
+  h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+  #article p {font-size: 175% !important; position: relative; left: -% !important; min-width: 640px !important; margin-bottom: 30px !important; top: -3rem !important; left: -4.3rem !important;}
+  #article h2{min-width: 800px !important; transform: translateX(-3rem) scaleX(.8) !important;}
+
+  h2.ProductItem-related-label{margin-bottom: 10px;
+    position: relative; left: -6rem !important; top: -24rem !important;
+  min-width: 850px !important; transform: scaleX(.8) !important;}        
+  
+  div.list-grid {max-width: 700px !important; min-width: 600px !important; position: relative; top: -23rem !important;} 
+
+     h2.ProductItem-related-label, div.list-grid {
+       position: relative; top: -33rem !important; left: -8rem !important;
+     }
+  i.fa {
+    position: relative; top: -.5rem !important; left: -3rem !important; transform: scale(3) !important; padding: 50px !important;
+  }
+     .grid-title {
+       margin-left: 4rem !important;
+     }
+  }
+
+     /*Note to self- I am currently on this one. Between 1051px and 1250px*/ 
+     @media screen and (min-width: 65.6875rem) and (max-width: 78.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+       
+       
+       #article {
+   margin-top: 100px !important;    position: relative; top: -12rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important;
+     }
+   
+     #article * {max-width: 95% !important;}
+     #article img {
+       margin-bottom: 50px !important; position: relative; left: -5rem !important; transform: scaleX(.95) !important;
+     }
+     h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+     #article p {position: relative; left: -7.9% !important; min-width: 640px !important; margin-bottom: 150px !important; top: -3rem !important; min-width: 98% !important;}
+     #article h2{min-width: 1000px !important; transform: translateX(-8rem) scaleX(.8) !important;}
+   
+     h2.ProductItem-related-label{margin-bottom: 10px;
+       position: relative; left: -11rem !important; top: -24rem !important;
+     min-width: 850px !important; transform: scaleX(.8) !important;}        
+     
+     div.list-grid {position: relative; top: -23rem !important; left: -8rem !important;} 
+   
+        h2.ProductItem-related-label, div.list-grid {
+          position: relative; top: -29rem !important;min-width: 120% !important;
+        }
+     i.fa {
+       position: relative; top: -10rem !important; left: -8rem !important;
+     }
+
+     }
+
+          /*Between 1251px and 1450px*/ 
+          @media screen and (min-width: 78.125rem) and (max-width: 90.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+            #article {
+         margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -.5rem !important;
+           }
+         
+           #article * {max-width: 95% !important;}
+           #article img {
+             margin-bottom: 50px !important; position: relative; left: -11rem !important;
+           transform: scaleX(.7) !important;}
+           h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+           #article p {position: relative; left:-3.9% !important; min-width: 670px !important; max-width: 650px !important; margin-bottom: 150px !important; top: -3rem !important; }
+           #article h2{min-width: 1000px !important; transform: translateX(-11.1rem) scaleX(.8) !important;}
+         
+           h2.ProductItem-related-label{margin-bottom: 10px;
+             position: relative; left: -15rem !important; top: -24rem !important;
+           min-width: 1200px !important; transform: scaleX(.8) !important;}        
+           
+           div.list-grid {position: relative; top: -23rem !important; max-width: 900px !important; left: -10rem !important;} 
+         
+              h2.ProductItem-related-label, div.list-grid {
+                position: relative; top: -32rem !important;
+              }
+           i.fa {
+             position: relative; top: -11rem !important; left: -10rem !important; transform: scale(3) !important; padding: 30px !important;
+           }
+            div.grid-title {
+              margin-left: 2rem !important;
+            }
+
+           }
+
+          /*Between 1451px and 1650px*/ 
+          @media screen and (min-width: 90.6875rem) and (max-width: 103.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+            #article {
+              margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -1rem !important;
+                }
+              
+                #article * {max-width: 95% !important;}
+                #article img {
+                  margin-bottom: 50px !important; position: relative; left: -11rem !important;
+                transform: scaleX(.85) !important;}
+                h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+                #article p {position: relative; left:-10.9% !important; min-width: 85% !important; max-width: 650px !important; margin-bottom: 150px !important; top: -3rem !important; }
+                #article h2{min-width: 1200px !important; transform: translateX(-15.5rem) scaleX(.7) !important;}
+              
+                h2.ProductItem-related-label{margin-bottom: 10px;
+                  position: relative; left: -21rem !important; top: -24rem !important;
+                min-width: 1300px !important; transform: scaleX(.7) !important;}        
+                
+                           div.list-grid {max-width: 900px!important; position: relative; top: -23rem !important; left: -11.5rem !important;} 
+            div.grid-title {margin-left: 3rem !important;}    
+                   h2.ProductItem-related-label, div.list-grid {
+                     position: relative; top: -31rem !important;
+                   }
+                i.fa {
+                  position: relative; top: -10.5rem !important; left: -13rem !important; transform: scale(3) !important; padding: 50px !important;
+                }
+          }
+
+          /*Between 1651px and 1850px*/ 
+          @media screen and (min-width: 103.1875rem) and (max-width: 115.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+            .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
+             font-size: 200% !important; 
+            }
+            
+            #article {
+              margin-top: 50px !important;    position: relative; top: -12rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -1rem !important;
+                }
+              
+                #article *, #article img  {max-width: 95% !important;}
+                #article img {
+                  margin-bottom: 50px !important; position: relative; left: -14rem !important;
+                transform: scaleX(.65) !important;}
+                h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+                #article p {position: relative; left:-6% !important; min-width: 64.45% !important; max-width: 420px !important; margin-bottom: 150px !important; top: -3rem !important; font-size: 150% !important; }
+                #article h2{min-width: 1200px !important; transform: translateX(-18.5rem) scaleX(.7) !important;}
+              
+                h2.ProductItem-related-label{margin-bottom: 10px;
+                  position: relative; left: -20rem !important; top: -24rem !important;
+                min-width: 1300px !important; transform: scaleX(.7) translateX(-2rem) !important;}        
+                
+                div.list-grid {max-width: 1000px!important; position: relative; top: -23rem !important; left: 2rem !important;} 
+              
+                   h2.ProductItem-related-label, div.list-grid {
+                     position: relative; top: -29rem !important; left: -13rem !important;
+                   }
+            
+            h2.ProductItem-related-label{min-width: 1750px !important; transform: scaleX(.6) translateX(-30.5rem) !important;}
+                i.fa {
+                  position: relative; top: -11rem !important; left: -16rem !important; transform: scale(3) !important; padding: 50px !important; 
+                }
+            div.grid-title {
+              margin-left: 1rem !important;
+            }
+
+          }
+
+
+          /*Between 1851px and 2050px*/ 
+          @media screen and (min-width: 115.6875rem) and (max-width: 128.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+            #article {
+              margin-top: 50px !important; margin-bottom: 150px !important;    transform: scale(1) translateY(4rem)!important; position: relative; top: -10rem !important; min-width: 500px !important; max-width: 1500px !important; margin-bottom: 100px !important; left: -8rem !important;
+                top: -17rem !important;}
+              
+                #article *, #article img  {max-width: 105% !important;}
+                #article img {
+                  margin-bottom: 50px !important; position: relative; left: -9rem !important;
+                transform: scaleX(.65) !important;}
+                h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+                #article p {font-size: 150% !important;position: relative; left:1.9% !important; min-width: 45.45% !important; max-width: 420px !important; margin-bottom: 150px !important; top: -3rem !important; }
+                #article h2{min-width: 1200px !important; transform: translateX(-18.5rem) scaleX(.7) !important;}
+              
+                h2.ProductItem-related-label{margin-bottom: 10px;
+                  position: relative; left: -20rem !important; top: -24rem !important;
+                min-width: 1300px !important; transform: scaleX(.7) !important; margin-left: 15rem; margin-top: 17rem !important;}        
+                
+                div.list-grid {max-width: 950px !important; position: relative; top: -26rem !important; left: 2rem !important;} 
+              
+                   h2.ProductItem-related-label, div.list-grid {
+                     position: relative; top: -45rem !important; left: -15rem !important; 
+                   }
+            
+            h2.ProductItem-related-label{min-width: 1750px !important; transform: scaleX(.6) translateX(-60rem) !important;}
+                i.fa {
+                  position: relative; top: -11rem !important; left: -23rem !important; transform: scale(3) !important; padding: 50px !important;
+                }
+            div.grid-title {
+              margin-left: 5rem !important;
+            }
+}
+
+
+
+
+ /*Between 2051px and 2250px*/ 
+ @media screen and (min-width: 128.1875rem) and (max-width: 140.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+   #article {
+    margin-top: 100px !important;    position: relative; top: -17rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important;
+      }
+    
+      #article *, #article img  {max-width: 95% !important;}
+      #article img {
+        margin-bottom: 50px !important; position: relative; left: -16rem !important;
+      transform: scaleX(.75) !important;}
+      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+      #article p {font-size: 150% !important;position: relative; left:-14% !important; min-width: 64.45% !important; max-width: 720px !important; margin-bottom: 150px !important; top: -3rem !important; }
+      #article h2{min-width: 2000px !important; transform: translateX(-39rem) scaleX(.5) !important;}
+    
+      h2.ProductItem-related-label{margin-bottom: 10px;
+        position: relative; left: -41rem !important; top: -24rem !important;
+      min-width: 1800px !important; transform: scaleX(.5) !important;}        
+      
+      div.list-grid {max-width: 950px!important; position: relative; top: -23rem !important; left: -15rem !important;} 
+    
+         h2.ProductItem-related-label, div.list-grid {
+           position: relative; top: -35rem !important;
+         }
+      i.fa {
+        position: relative; top: -10.5rem !important; left: -16rem !important; transform: scale(3) !important; padding: 50px !important;
+      }
+}
+ 
+ /*Between 2251px and 2450px*/ 
+ @media screen and (min-width: 140.6875rem) and (max-width: 153.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  #article {
+    margin-top: 50px !important;    position: relative; top: -14rem !important; min-width: 500px !important; max-width: 1000px !important; left: -3rem !important; margin-bottom: 100px !important;
+      }
+    
+      #article *, #article img  {max-width: 95% !important;}
+      #article img {
+        margin-bottom: 50px !important; position: relative; left: -16rem !important;
+      transform: scaleX(.75) !important;}
+      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+      #article p {font-size: 150% !important; position: relative; left:-14% !important; min-width: 71% !important; max-width: 720px !important; margin-bottom: 150px !important; top: -3rem !important; }
+      #article h2{min-width: 2000px !important; transform: translateX(-33rem) scaleX(.5) !important;}
+    
+      h2.ProductItem-related-label{margin-bottom: 10px;
+        position: relative; left: -41rem !important; top: -24rem !important;
+      min-width: 1800px !important; transform: scaleX(.5) !important;}        
+      
+      div.list-grid {max-width: 950px!important; position: relative; top: -23rem !important; left: -17rem !important;} 
+    
+         h2.ProductItem-related-label, div.list-grid {
+           position: relative; top: -31rem !important;
+         }
+      i.fa {
+        position: relative; top: -10.5rem !important; left: -19rem !important; transform: scale(3) !important; padding: 50px !important;
+      }
+   
+   div.grid-title {
+     margin-left: 2rem !important;
+   }
+}
+
+ /*Between 2451px and 2650px*/ 
+ @media screen and (min-width: 153.1875rem) and (max-width: 165.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+  #article {
+    margin-top: 50px !important;    position: relative; top: -14rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -3% !important;
+      }
+    
+      #article *, #article img  {max-width: 95% !important;}
+      #article img {
+        margin-bottom: 50px !important; position: relative; left: -16rem !important;
+      transform: scaleX(.75) !important;}
+      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+      #article p {font-size: 150% !important;position: relative; left:-14% !important; min-width: 71% !important; max-width: 720px !important; margin-bottom: 150px !important; top: -3rem !important; }
+      #article h2{min-width: 2000px !important; transform: translateX(-33rem) scaleX(.5) !important;}
+    
+      h2.ProductItem-related-label{margin-bottom: 10px;
+        position: relative; left: -41rem !important; top: -24rem !important;
+      min-width: 1800px !important; transform: scaleX(.5) !important;}        
+      
+      div.list-grid {max-width: 950px!important; position: relative; top: -23rem !important; left: -19rem !important;} 
+    
+         h2.ProductItem-related-label, div.list-grid {
+           position: relative; top: -31rem !important;
+         }
+      i.fa {
+        position: relative; top: -10.5rem !important; left: -19rem !important; transform: scale(3) !important; padding: 50px !important;
+      }
+   
+   div.grid-title{margin-left: 3rem !important;}
+}
+
+ /*Between 2651px and 2850px*/ 
+ @media screen and (min-width: 165.6875rem) and (max-width: 178.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+a.ProductItem-nav-breadcrumb-link, span.ProductItem-nav-breadcrumb-separator {position: relative; top: -3% !important; left: -0px;}
+   
+   #article {
+    margin-top: 50px !important;    position: relative; top: -14rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -2% !important;
+      }
+    
+      #article *, #article img  {max-width: 95% !important;}
+      #article img {
+        margin-bottom: 50px !important; position: relative; left: -20rem !important;
+      transform: scaleX(.75) !important;}
+      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+      #article p {font-size: 150% !important;position: relative; left:-20.49% !important; min-width: 72% !important; max-width: 720px !important; margin-bottom: 150px !important; top: -3rem !important; }
+      #article h2{min-width: 2000px !important; transform: translateX(-39rem) scaleX(.5) !important;}
+    
+      h2.ProductItem-related-label{margin-bottom: 10px;
+        position: relative; left: -43rem !important; top: -24rem !important;
+      min-width: 1800px !important; transform: scaleX(.5) !important;}        
+      
+      div.list-grid {max-width: 950px!important; position: relative; top: -23rem !important; left: -21rem !important;} 
+    
+         h2.ProductItem-related-label, div.list-grid {
+           position: relative; top: -33rem !important;
+         }
+      i.fa {
+        position: relative; top: -11rem !important; left: -19rem !important; transform: scale(3) !important; padding: 50px !important;
+      }
+}
+
+ /*Between 2851px and 3050px*/ 
+ @media screen and (min-width: 178.1875rem) and (max-width: 190.625rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
+a.ProductItem-nav-breadcrumb-link, span.ProductItem-nav-breadcrumb-separator {position: relative; left: 0% !important; top: -5% !important;}
+   
+   #article {
+    margin-top: 50px !important;    position: relative; top: -15rem !important; min-width: 500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -4.5% !important;
+      }
+    
+      #article *, #article img  {max-width: 95% !important;}
+      #article img {
+        margin-bottom: 50px !important; position: relative; left: -16rem !important;
+      transform: scaleX(.75) !important;}
+      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+      #article p {font-size: 150% !important; position: relative; left:-14% !important; min-width: 71% !important; max-width: 720px !important; margin-bottom: 150px !important; top: -3rem !important; }
+      #article h2{min-width: 2000px !important; transform: translateX(-35rem) scaleX(.5) !important;}
+    
+      h2.ProductItem-related-label{margin-bottom: 10px;
+        position: relative; left: -49rem !important; top: -24rem !important;
+      min-width: 1800px !important; transform: scaleX(.5) !important;}        
+      
+      div.list-grid {max-width: 950px!important; position: relative; top: -25rem !important; left: -21rem !important;} 
+    
+         h2.ProductItem-related-label, div.list-grid {
+           position: relative; top: -33rem !important;
+         }
+      i.fa {
+        position: relative; top: -11rem !important; left: -21rem !important; transform: scale(3) !important; padding: 50px !important;
+      }
+}
