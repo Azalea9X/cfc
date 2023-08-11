@@ -14,13 +14,13 @@ div.grid-title {
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   img:not(#article img, div.list-grid img) {
-     transform: translateX(6rem) translateY(.5rem) scale(3)!important; margin-top: 3rem !important;
+position: relative !important; top: 0rem !important; left: 0rem !important; 
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
   .burger-inner {
-  transform: translateX(-15rem) scale(3) !important; margin-bottom: 58rem !important;}
+ position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
   
   
   #article {min-width: 301px !important; max-width: 600px !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: -.3rem !important;}
