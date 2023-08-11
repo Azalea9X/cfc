@@ -757,6 +757,9 @@ margin-bottom: 5rem !important;             position: relative; top: -6rem !impo
  
  }
 
+#article img, div.list-grid img {
+  max-height: 500px !important;}
+
 
 /*@media screen and (orientation:landscape) {
   * {display: none !important;}
