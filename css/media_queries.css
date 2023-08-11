@@ -473,7 +473,9 @@ div.grid-title{font-size: 500% !important;}
       
 /*Between 661px and 850px*/ 
 @media screen and (min-width: 41.9125rem) and (max-width: 53.125rem) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-   img:not(#article img), img:not(div.list-grid img) {
+   
+  
+  img:not(#article img), img:not(div.list-grid img) {
      transform: translateX(3rem) scale(3) !important;
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
@@ -591,7 +593,7 @@ transform: translateX(-5.9rem) scaleX(1.5) !important;    margin-bottom: 50px !i
   
      div.list-grid {min-width: 800px !important;max-width: 1000px !important; position: relative; left: 3rem !important; top: -36rem !important;} 
     div.grid-title {margin-left: 0.5rem !important;}
-display: none !important;
+* {display: none !important;}
      }
 
           /*Between 1251px and 1450px*/ 
