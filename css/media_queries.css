@@ -60,10 +60,9 @@ position: relative; left:0rem !important; transform: translateY(-10rem) !importa
      transform: translateX(3rem) translateY(.5rem) scale(3)!important;
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
-            clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
+            clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  }
             }
-  .burger-inner { position: absolute !important;
-  transform: translateX(-19rem) translateY(5rem) scale(3) !important; margin-bottom: 5rem !important;}
+  .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
   
   
   #article {
@@ -110,9 +109,9 @@ div.grid-title{font-size: 500% !important;margin-left: 5.5rem !important; max-wi
 position: relative; top: -13rem !important; left: -5rem !important;
   margin-bottom: 10rem !important; margin-top: 150px !important;}
 
-.burger-inner {
- position: absolute !important; transform: translateX(-25rem) translateY(5rem) scale(3) !important;
-
+.burger-inner {position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+}
+ 
 margin-bottom: 30px !important;}
 
   #article * {max-width: 90% !important; }
@@ -150,8 +149,8 @@ font-size: 160% !important; position: relative; top: -5% !important; left: -% !i
             }
      
      .burger-inner {
-      transform: translateX(-30rem) translateY(5rem) scale(4) !important;
-    }
+      position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+   }
      #article {
 margin-top: 100px !important;    position: relative; left: 0rem !important; top: -12rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 300px !important;
   }
@@ -400,9 +399,8 @@ margin-top: 4rem !important; margin-bottom: 4rem !important;                  po
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
-  .burger-inner { position: absolute !important;
-  transform: translateX(-19rem) translateY(5rem) scale(3) !important; margin-bottom: 5rem !important;}
-  
+  .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+}
 
   #article {min-width: 301px !important; max-width: 600px !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 0rem !important;}
  
@@ -441,9 +439,8 @@ div.list-grid{
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
-  .burger-inner { position: absolute !important;
-  transform: translateX(-19rem) translateY(5rem) scale(3) !important; margin-bottom: 5rem !important;}
-  
+  .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+}
     
   
   #article { 
@@ -491,10 +488,8 @@ div.grid-title{font-size: 500% !important;}
 position: relative; top: -13rem !important; left: 6rem !important;
   margin-bottom: 10rem !important; margin-top: 150px !important;}
 
-.burger-inner { position: absolute !important;
-  transform: translateX(-20rem) translateY(5rem) scale(3) !important;
-
-margin-bottom: 30px !important;}
+.burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+  }
 
   #article * {max-width: 90% !important; }
   #article img {
@@ -532,9 +527,8 @@ div.list-grid {margin-top: 3rem !important;display: flex; flex-direction: column
 font-size: 160% !important; position: relative; top: -5% !important; left: 20% !important;  
             }
      
-     .burger-inner { position: absolute !important;
-      transform: translateX(-30rem) translateY(5rem) scale(4) !important;
-    }
+     .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+  }
      #article {
 margin-top: 100px !important;    position: relative; left: 8rem !important; left: 6rem !important;top: -12rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 300px !important;
   }
