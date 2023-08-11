@@ -27,7 +27,7 @@ div.grid-title {
   #article p {font-size: 200% !important; position: relative; left: 4% !important; top: 4% !important; transform: scaleX(1) !important; min-width: 105% !important; max-width: 100% 1important; }
   h2.ProductItem-related-label{font-size: 400% !important; margin-left: rem !important;}
   div.grid-title{
-  font-size: 200% !important;margin-left: 1rem !important;
+  font-size: 200% !important;margin-left: -.5rem !important;
   }
   #article img {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
