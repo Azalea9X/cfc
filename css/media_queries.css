@@ -44,9 +44,9 @@ position: relative; left:0rem !important; transform: translateY(-10rem) !importa
   }
 
   i.fa {
-    transform: translateX(4rem) scale(2) !important; padding: 30px !important;
+    transform:  scale(2) !important; padding: 30px !important;
   }
-d
+ 
 } 
 
 
