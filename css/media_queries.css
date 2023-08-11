@@ -46,7 +46,7 @@ transform: translateY(-11rem) !important; position: relative; left:0.5rem !impor
   }
 
   div.list-grid{
-position: relative; left:0rem !important; transform: translateY(-10rem) !important;
+position: relative; left:-5rem !important; transform: translateY(-10rem) !important;
   }
 
   i.fa {
