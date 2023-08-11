@@ -12,13 +12,13 @@ div.grid-title {
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   img:not(#article img, div.list-grid img) {
-     transform: translateX(6rem) translateY(.5rem) scale(3)!important;
+     transform: translateX(6rem) translateY(.5rem) scale(3)!important; margin-top: 3rem !important;
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
-  .burger-inner { position: absolute !important;
-  transform: translateX(-15rem) translateY(5rem) scale(3) !important; margin-bottom: 5rem !important;}
+  .burger-inner {
+  transform: translateX(-15rem) scale(3) !important; margin-bottom: 58rem !important;}
   
   
   #article {min-width: 301px !important; max-width: 600px !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: -.3rem !important;}
@@ -94,7 +94,7 @@ div.grid-title{font-size: 500% !important;margin-left: 5.5rem !important; max-wi
 /*Between 661px and 850px*/ 
 @media screen and (min-width: 41.9125rem) and (max-width: 53.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
    img:not(#article img) {
-     transform: scale(3) translateX(0rem) !important;
+     transform: scale(1.5) translateX(0rem) !important;
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
              margin-top: 20px !important; margin-bottom: 20px !important; font-size: 150% !important; position: relative; top: -5% !important; left: -% !important;  
@@ -389,7 +389,7 @@ margin-top: 4rem !important; margin-bottom: 4rem !important;                  po
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   img:not(#article img, div.list-grid img) {
-     transform: translateX(26rem) translateY(.5rem) scale(3)!important;
+     transform: translateX(26rem) translateY(.5rem) scale(1.5)!important;
    }
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
