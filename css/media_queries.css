@@ -33,14 +33,14 @@ div.grid-title {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
   }
   #article h2 {font-size: 300% !important;
-    min-width: 650px !important;transform:  translateX(5.5rem) !important; 
+    min-width: 650px !important;transform:  translateX(-2.5rem) !important; 
   }
   div.list-grid, h2.ProductItem-related-label{
 transform: translateY(-11rem) !important; position: relative; left:3.5rem !important;
   }
 
   div.list-grid{
-position: relative; left:2.8rem !important; transform: translateY(-10rem) !important;
+position: relative; left:0rem !important; transform: translateY(-10rem) !important;
   }
 
   i.fa {
@@ -402,7 +402,7 @@ margin-top: 3rem !important; margin-bottom: 4rem !important;                  po
   #article {min-width: 301px !important; max-width: 600px !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 0rem !important;}
  
   
-  #article p {font-size: 200% !important; position: relative; left: 15% !important; top: 4% !important; transform: scaleX(1) translateX(-5rem) !important;  max-width: 90% !important; }
+  #article p {font-size: 200% !important; position: relative; left: 18% !important; top: 4% !important; transform: scaleX(1) translateX(-5rem) !important;  max-width: 90% !important; }
   h2.ProductItem-related-label{font-size: 400% !important; margin-left: 5rem !important;}
   div.grid-title{
   font-size: 200% !important;
@@ -445,13 +445,13 @@ div.list-grid{
    margin-top: 6rem !important; position: relative; top: -10rem !important; left: -.3rem !important; min-width: 500px !important; max-width: 600px !important; margin-bottom: 100px !important;
   }
   #article h2 {
-    transform: translateX(rem) !important; font-size: 400% !important;
+    transform: translateX(5rem) !important; font-size: 400% !important;
   }
   #article * {max-width: 106% !important;}
   #article img {
     margin-bottom: 50px !important; position: relative; left: -1rem !important;
   }
-  #article p {text-align: left !important; position: relative; left:-19% !important; min-width: 125% !important; font-size: 3rem !important;  transform: scaleX(.7) !important;}
+  #article p {text-align: left !important; position: relative; left:-16% !important; min-width: 125% !important; font-size: 3rem !important;  transform: scaleX(.7) !important;}
   h2.ProductItem-related-label, div.list-grid {
     position: relative; left: 16rem !important;
   }        
