@@ -754,6 +754,6 @@ transform: translateX(-5.9rem) scaleX(1.5) !important;    margin-bottom: 50px !i
  }}
 
 
-@media screen and (orientation:landscape) {
+/*@media screen and (orientation:landscape) {
   * {display: none !important;}
-}
+}*/
