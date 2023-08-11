@@ -33,10 +33,10 @@ div.grid-title {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
   }
   #article h2 {font-size: 300% !important;
-    min-width: 650px !important;transform:  translateX(5.5rem) !important; 
+    min-width: 650px !important;transform:  translateX(-2.5rem) !important; 
   }
   div.list-grid, h2.ProductItem-related-label{
-transform: translateY(-11rem) !important; position: relative; left:3.5rem !important;
+transform: translateY(-11rem) !important; position: relative; left:0.5rem !important;
   }
 
   div.list-grid{
@@ -44,7 +44,7 @@ position: relative; left:2.8rem !important; transform: translateY(-10rem) !impor
   }
 
   i.fa {
-    transform: scale(2) !important; padding: 30px !important;
+    transform: scale(2) translateX(5rem)!important; padding: 30px !important;
   }
 
 } 
