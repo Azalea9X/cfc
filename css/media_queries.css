@@ -7,8 +7,10 @@ div.grid-title {
 }
 /*For portrait mode, currently editing this media query: Between 1051px and 1250px/
 /*Note for the links, target i.fa.fa-link, i.fa.fa-instagram, etc*/
-
-
+@media screen and (min-width: 1px) and (max-width: 1200px) {
+#article {
+  margin-top: 5rem !important;}
+}
 
 @media screen and (min-width: 301px) and (max-width: 600px) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
   img:not(#article img, div.list-grid img) {
