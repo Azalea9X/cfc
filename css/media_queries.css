@@ -27,13 +27,13 @@ div.grid-title {
   #article p {font-size: 200% !important; position: relative; left: 4% !important; top: 4% !important; transform: scaleX(1) !important; min-width: 105% !important; max-width: 100% 1important; }
   h2.ProductItem-related-label{font-size: 400% !important; margin-left: rem !important;}
   div.grid-title{
-  font-size: 200% !important;margin-left: -5rem !important;
+  font-size: 200% !important;margin-left: 0rem !important;
   }
   #article img {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
   }
   #article h2 {font-size: 300% !important;
-    min-width: 650px !important;transform:  translateX(-2.5rem) !important; 
+    min-width: 650px !important;transform:  translateX(-.5rem) scale(.9)!important; 
   }
   div.list-grid, h2.ProductItem-related-label{
 transform: translateY(-11rem) !important; position: relative; left:3.5rem !important;
@@ -46,7 +46,7 @@ position: relative; left:0rem !important; transform: translateY(-10rem) !importa
   i.fa {
     transform: scale(2) !important; padding: 30px !important;
   }
-
+d
 } 
 
 
