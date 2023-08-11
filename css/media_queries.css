@@ -27,13 +27,13 @@ div.grid-title {
   #article p {font-size: 200% !important; position: relative; left: 4% !important; top: 4% !important; transform: scaleX(1) !important; min-width: 105% !important; max-width: 100% 1important; }
   h2.ProductItem-related-label{font-size: 400% !important; margin-left: rem !important;}
   div.grid-title{
-  font-size: 200% !important;margin-left: 0rem !important;
+  font-size: 200% !important;margin-left: 3rem !important;
   }
   #article img {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
   }
   #article h2 {font-size: 300% !important;
-    min-width: 650px !important;transform:  translateX(-.5rem) scale(.9)!important; 
+    min-width: 650px !important;transform:  translateX(1rem) scale(.8)!important; 
   }
   div.list-grid, h2.ProductItem-related-label{
 transform: translateY(-11rem) !important; position: relative; left:3.5rem !important;
@@ -520,7 +520,7 @@ div.list-grid {margin-top: 3rem !important;display: flex; flex-direction: column
               
    /*Between 851px and 1050px*/ 
    @media screen and (min-width: 851px) and (max-width: 1050px) and (orientation:landscape), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
- 
+ * { display: none !important;}
  .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
 font-size: 160% !important; position: relative; top: -5% !important; left: 20% !important;  
             }
