@@ -33,7 +33,7 @@ div.grid-title {
     position: relative; left: -3% !important; transform: scaleX(1.5) !important;
   }
   #article h2 {font-size: 300% !important;
-    min-width: 650px !important;transform:  translateX(.3rem) scale(.8)!important; 
+    min-width: 650px !important;transform:  translateX(-1rem) scale(.8)!important; 
   }
   div.list-grid, h2.ProductItem-related-label{
 transform: translateY(-11rem) !important; position: relative; left:3.5rem !important;
@@ -481,7 +481,7 @@ div.grid-title{font-size: 500% !important;}
             }
   
   #article {
-position: relative; top: -13rem !important; left: 3rem !important;
+position: relative; top: -13rem !important; left: 6rem !important;
   margin-bottom: 10rem !important; margin-top: 150px !important;}
 
 .burger-inner {
@@ -515,7 +515,7 @@ margin-bottom: 30px !important;}
  
   
 div.list-grid {margin-top: 3rem !important;display: flex; flex-direction: column !important; transform: translateY(-.5rem) translateX(10rem) !important;}
- * { display: none !important;}  
+  
 }
               
    /*Between 851px and 1050px*/ 
