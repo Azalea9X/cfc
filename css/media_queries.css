@@ -5,6 +5,14 @@ html {
 div.grid-title {
   font-size: 300% !important;
 }
+
+.burger-inner, #img:not(#article img, div.list-grid img) {
+position: relative !important; top: 0rem !important; left: 0rem !important;
+}
+
+#article {
+  margin-top: 1rem !important;
+}
 /*For portrait mode, currently editing this media query: Between 1051px and 1250px/
 /*Note for the links, target i.fa.fa-link, i.fa.fa-instagram, etc*/
 
