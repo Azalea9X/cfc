@@ -54,20 +54,23 @@ position: relative; left: -6rem !important;
  img:not(#article img, div.list-grid img) {
      transform: translateX(3rem) translateY(.5rem) scale(3)!important;
    }
+
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  }
-            }
+            
   .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
-  
-  
-  #article {
+   
+  article#article {
    margin-top: 5rem !important; position: relative; top: -10rem !important; left: 1rem !important; min-width: 500px !important; max-width: 500px !important; margin-bottom: 100px !important;
   }
-  #article h2 {
-    transform: translateX(-1rem) !important; font-size: 400% !important;  
+
+
+  article#article h2 {
+    transform: translateX(-1rem) !important; font-size: 250% !important;  
   }
-  #article * {max-width: 106% !important;}
-  #article img {
+ #article * {max-width: 106% !important;}
+
+#article img {
     margin-bottom: 50px !important; position: relative; left: -1rem !important;
   transform: scaleX(1.3) !important;}
 
@@ -75,18 +78,19 @@ position: relative; left: -6rem !important;
     position: relative; left: 13rem !important;
   }        
 
-  h2.ProductItem-related-label {margin-top: 2rem !important; position: relative; left: -0rem !important; top: -6rem !important; font-size: 300% !important; transform: translateY(-18rem) scale(.9)!important;}
    
-  div.list-grid {
-    transform: translate(-13.5rem, -23rem) !important;
-  }
 
-  i.fa {
- margin-top: 30px !important; position: relative; top: -5rem !important; left: -0.9rem !important;
-transform: scale(2.5); display: flex !important; flex-wrap: wrap !important; padding: 3rem !important;
+
+ article#article i.fa {
+ margin-top: 13rem !important; margin-bottom: 8rem !important;position: relative; top: -16rem !important; left: -0.9rem !important;
+transform: scale(3); display: flex !important; flex-wrap: wrap !important; padding: 2.5rem !important;
   }
-div.grid-title{font-size: 500% !important;margin-left: 5.5rem !important; max-width: 400px !important;}
-  #article p {text-align: left !important; position: relative; left: -10% !important; top: -3rem !important;min-width: 115% !important; font-size: 1.5rem !important;}
+div.grid-title{font-size: 300% !important;margin-left: 5.5rem !important; max-width: 400px !important;}
+  article#article p {text-align: left !important; position: relative; left: -28% !important; top: -3rem !important;min-width: 160% !important; font-size: 1.5rem !important; margin-bottom: 4rem !important;}
+  h2.ProductItem-related-label {font-size: 300% !important; font-weight: bold !important;}
+  div.list-grid {
+
+  }
 
 }
 
