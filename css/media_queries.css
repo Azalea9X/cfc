@@ -36,7 +36,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
     font-size: 180% !important; font-weight: bold !important;
   }
   article#article i.fa {
-    transform: translateX(-3rem) scale(3)!important;
+    transform: translateX(-5rem) translateY(-.5rem) scale(3)!important;
   margin-bottom: 8rem !important;}
   article#article i.fa-phone{ transform: translateX(-3rem) scale(3) translateY(-3.5rem) !important; margin-bottom: 7rem !important;}
  body h2.ProductItem-related-label {
@@ -283,36 +283,36 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
              font-size: 200% !important; position: relative; top: -5% !important; left: 0% !important;  
             }
             
-            #article {
-              margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 1100px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: 7rem !important;
+            article#article {
+              margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 1300px !important; max-width: 2000px !important; margin-bottom: 100px !important; left: 0rem !important;
                 }
               
                 #article * {max-width: 95% !important;}
                 article#article img {
                   margin-bottom: 50px !important; position: relative; left: -5rem !important;
-                transform: scaleX(3.3) !important;}
+                min-width: 115% !important;}
                 h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
-                article#article p {font-size: 300% !important;position: relative; left:-83.9% !important; min-width: 345% !important; max-width: 650px !important; margin-bottom: 50px !important; top: -3rem !important; }
-                #article h2{min-width: 1200px !important; transform: translateX(-5.5rem) scaleX(.7) !important;}
+                article#article p {font-size: 300% !important;position: relative; left:-35.9% !important; min-width:165% !important; max-width: 650px !important; margin-bottom: 50px !important; top: -3rem !important; }
+                article#article h2{min-width: 1200px !important; transform: translateX(15.5rem) scaleX(1) !important;}
               
-                body h2.ProductItem-related-label{margin-bottom: 10px;
+                body h2.ProductItem-related-label{margin-bottom: 10px; font-weight: bold !important;
                   position: relative; left: 15rem !important; top: -37rem !important;
                 min-width: 1300px !important; transform: scale(1.2) !important;}        
                 
 
-           body div.grid-title {min-width: 800px !important; margin-left: 0rem !important;}    
+           body div.grid-title {min-width: 800px !important; margin-left: 5rem !important; margin-top: -2rem !important;}    
                    h2.ProductItem-related-label, div.list-grid {
                      position: relative; top: -33rem !important;
                    }
                                        div.list-grid {max-width: 1300px!important; position: relative; top: -23rem !important; left: -13rem !important; top: -30rem !important;} 
                article#article i.fa {
-                  margin-top: 5rem !important; margin-bottom: 5rem !important;position: relative; top: -6.5rem !important; left: 7rem !important; transform: scale(4) !important; padding: 80px !important;
+                  margin-top: 5rem !important; margin-bottom: 5rem !important;position: relative; top: -11rem !important; left: -.5rem !important; transform: scale(4) !important; padding: 80px !important;
                 }
             .header-nav-wrapper{
               transform: translateX(-15rem) !important;     }
           
           body div.list-grid {
-            transform: translateX(10rem) !important;
+            transform: translateX(5rem) !important;min-width: 1000px !important; max-width: 1500px !important;
           }
           } 
 
@@ -327,31 +327,31 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
              font-size: 200% !important; position: relative; top: -5% !important; left: 0% !important;  
             }
             
-            #article {
-              margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 1100px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: 13rem !important;
+            article#article {
+              margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 1100px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: -13rem !important;
                 }
               
-                #article * {max-width: 95% !important;}
-                #article img {
+                article#article * {max-width: 105% !important;}
+                article#article img {
                   margin-bottom: 50px !important; position: relative; left: -11rem !important;
-                transform: scaleX(3.3) !important;}
+                transform: scaleX(2.8) !important;}
                 h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
-                #article p {font-size:300% !important;position: relative; left:-33.9% !important; min-width: 145% !important; max-width: 650px !important; margin-bottom: 150px !important; top: -3rem !important; }
+                article#article p {font-size:300% !important;position: relative; left:-25.9% !important; min-width: 205% !important; max-width: 650px !important; margin-bottom: 50px !important; top: -3rem !important; }
                 #article h2{min-width: 1200px !important; transform: translateX(-15.5rem) scaleX(.7) !important;}
               
 body h2.ProductItem-related-label{
-                  position: relative; left: -6rem !important; top: -36rem !important; left: -3rem !important;
+                  position: relative;  top: -36rem !important; left: 12rem !important;
                 min-width: 1300px !important; font-size: 600% !important;}        
                 
 
-            body div.grid-title {position: relative; top: -10rem !important;}    
+            body div.grid-title {position: relative; top: -10rem !important;font-size: 800% !important;}    
                    body h2.ProductItem-related-label, body div.list-grid {
                      transform: translateY(-1em) !important;
                    }
-body div.list-grid {min-width: 1000px !important; max-width: 1500px!important; position: relative; top: -07rem !important; left: -10.5rem !important; top: -36rem !important;} 
+body div.list-grid {min-width: 1300px !important; max-width: 1700px!important; position: relative; left: -4.5rem !important; top: -42rem !important;} 
  
    article#article i.fa {
-margin-top: 4rem !important; margin-bottom: 4rem !important;                  position: relative; top: -10.5rem !important; left: -15rem !important; transform: scale(3) !important; padding: 50px !important;
+margin-top: 6rem !important; margin-bottom: 11rem !important;                  position: relative; top: -10.5rem !important; left: 15rem !important; transform: scale(4) !important; padding: 90px !important;
    
     
                 
@@ -367,39 +367,39 @@ margin-top: 4rem !important; margin-bottom: 4rem !important;                  po
              font-size: 200% !important; position: relative; top: -5% !important; left: 80% !important;  
             }
             
-            #article {
+            article#article {
               margin-top: 100px !important;    position: relative; top: -14rem !important; min-width: 1500px !important; max-width: 1000px !important; margin-bottom: 100px !important; left: 14rem !important;
                 }
               
-                #article * {max-width: 95% !important;}
-                #article img {
+                article#article * {max-width: 105% !important;}
+                article#article img {
                   margin-bottom: 50px !important; position: relative; left: -11rem !important;
-                transform: scaleX(3.5) !important;}
+                transform: scaleX(2.5) !important;}
                 h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
-                #article p {font-size: 200% !important;position: relative; left:-28.9% !important; min-width: 105.6% !important; max-width: 650px !important; margin-bottom: 150px !important; top: -3rem !important; }
-                #article h2{min-width: 2300px !important; transform: translateX(-8.5rem) scaleX(1) !important;}
+                article#article p {font-size: 300% !important;position: relative; left:-50.9% !important; min-width: 165.6% !important; max-width: 650px !important; margin-bottom: 50px !important; top: -3rem !important; }
+                #article h2{min-width: 2300px !important; transform: translateX(-8.5rem) scaleX(1) !important; font-weight: bold !important;}
               
                 h2.ProductItem-related-label{margin-bottom: 10px;
-                  position: relative; left: -8rem !important; top: -24rem !important; left: 2rem !important;
-                min-width: 1300px !important; transform: scaleX(.8) !important;      margin-bottom: 6rem !important;}        
+                  position: relative;  top: -24rem !important; left: 2rem !important;
+                min-width: 1300px !important; margin-bottom: 6rem !important;}        
                 
 
-            div.grid-title {margin-left: 3rem !important;}    
-                   h2.ProductItem-related-label, div.list-grid {
-                     position: relative; top: -34rem !important; left: -11rem !important;
+            body div.grid-title {font-size: 600% !important; position: relative; top: -10rem !important; left: -5rem !important;}    
+                  body  h2.ProductItem-related-label, body div.list-grid {
+                     position: relative; top: -38rem !important; left: 3rem !important;
                    }
    
 
-                i.fa {
-                  position: relative; top: -10.5rem !important; left: -30rem !important; transform: scale(4) !important; padding: 150px !important;
+                article#article i.fa {
+                  position: relative; top: -14.5rem !important; left: -30rem !important; transform: scale(4) !important; padding: 150px !important;
    
                 
                 }
 
-     div.list-grid {
+     body div.list-grid {
        min-width: 1300px !important; max-width: 1600px !important; 
        position: relative; left: -7rem !important;
-     }
+   }body h2.ProductItem-related-label{transform: translateX(45rem) scale(2) !important;}
  } 
 
  
