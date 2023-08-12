@@ -39,14 +39,14 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
   article#article i.fa {
     transform: translateX(-3rem) scale(3)!important;
-  margin-bottom: 6rem !important;}
+  margin-bottom: 8rem !important;}
   article#article i.fa-phone{ transform: translateX(-3rem) scale(3) translateY(-3.5rem) !important; margin-bottom: 7rem !important;}
  body h2.ProductItem-related-label {
-position: relative; left: -6rem !important;
- min-width: 180% !important; max-width: 125% !important; }
+position: relative; left: -6rem !important; transform: scaleX(.6) translateY(7rem) !important;
+ min-width: 180% !important; max-width: 125% !important; margin-top: 5rem !important;margin-bottom: 8rem !important;}
   [id^="thumb"] {position: relative; left: -1.5rem !important;}
   div.grid-title {
-    transform: scale(.8) translateX(-5rem) !important;
+    transform: scale(1) translateX(3rem) !important;
   }
 } 
 /*601px and 660px*/
