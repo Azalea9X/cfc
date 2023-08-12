@@ -29,9 +29,9 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
  position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
   
   
-  article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 6.3rem !important;}
+  article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 9.3rem !important;}
   article#article p {
-
+  position: relative; left: 5rem !important; min-width: 95% !important; max-width: 98% !important;
   }
   
   article#article h2 {
