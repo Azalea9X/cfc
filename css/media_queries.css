@@ -34,14 +34,14 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   
   body article#article h2 {
     font-size: 250% !important; font-weight: bold !important;
-  transform: translateX(3rem) scaleX(1) !important;}
+  transform: translateX(1rem) scaleX(1) !important;}
   
   body article#article i.fa{
     transform: translateX(-8rem) translateY(-10.5rem) scale(3)!important;
   margin-bottom: 5rem !important; }
 
   body article#article i.fa-link {
-  transform: translateY(-19rem) translateX(7rem) scale(3) !important;
+  transform: translateY(-16.5rem) translateX(4.5rem) scale(3) !important;
   }
   
   body article#article i.fa-envelope-o{
