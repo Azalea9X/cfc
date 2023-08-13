@@ -235,7 +235,7 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
 
      /*Between 1051px and 1250px*/ 
      @media screen and (min-width: 65.6875rem) and (max-width: 78.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-         * {display: none !important;}  .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
+           .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
              font-size: 200% !important; position: relative; top: -5% !important; left: -% !important;  
             }
        #article {
