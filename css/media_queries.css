@@ -44,6 +44,10 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   transform: translateY(-11.9rem) translateX(18rem) scale(3) !important;
   }
 
+  body article#article i.fa-link {
+    transform: translateX(10rem) translateY(-10rem) !important;}
+  
+
 
   body article#article i.fa-envelope-o, .fashion-camp i.fa-envelope-o{
     font-size: 5rem !important; transform:translateY(-0rem)  translateX(-12.8rem) !important;
