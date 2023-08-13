@@ -40,14 +40,17 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
     transform: translateX(-8rem) translateY(-10.5rem) scale(3)!important;
   margin-bottom: 5rem !important; }
 
-  body article#article i.fa-link .fashion-camp i.fa-link{
-  transform: translateY(-18.9rem) translateX(4rem) scale(3) !important;
+  body article#article i.fa-link article#article .fashion-camp i.fa-link{
+  transform: translateY(-16.9rem) translateX(12rem) scale(3) !important;
   }
-  
+
+
   body article#article i.fa-envelope-o, .fashion-camp i.fa-envelope-o{
     font-size: 5rem !important; transform:translateY(-0rem)  translateX(-12.8rem) !important;
   }
-  
+
+
+  .fashion-cam
 
     body article#article i.fa-link, .fashion-camp i.fa-link{position: relative; top: 8rem !important; left: -1.2rem !important;}
   body div.grid-title {
