@@ -152,7 +152,7 @@ div.grid-title{font-size: 600% !important;margin-left: 2.5rem !important; max-wi
   
   article#article {
   margin-bottom: 10rem !important; margin-top: 150px !important;}
-position: relative; top: -13rem !important; left: -5rem !important;
+position: relative; top: -13rem !important; left: 2rem !important;
 
 .burger-inner {position: relative !important; transform: translateX(-15rem) scale(1.5) !important; margin-bottom: 30px !important;}
 
