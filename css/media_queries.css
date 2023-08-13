@@ -165,7 +165,7 @@ article#article img {
     margin-bottom: 50px !important; transform: translateX(2.5rem) scaleX(1.6) !important;
   }
 
-h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
+h2, p, .grid-title {font-size: 400% !important; min-width: 400px !important; text-align: left !important; margin-bottom: 20px !important;}
 
 body article#article p {position: relative; left: -5.0% !important; font-size: 300% !important; top: -20px !important;min-width: 110% !important; margin-bottom: 20px !important;}
 
