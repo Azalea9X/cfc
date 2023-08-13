@@ -45,7 +45,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
   
   body article#article i.fa-envelope-o{
-    font-size: 5rem !important; transform:translateY(-.5rem)  translateX(-13.8rem) !important;
+    font-size: 5rem !important; transform:translateY(-.5rem)  translateX(-9.8rem) !important;
   }
   
 
@@ -194,7 +194,7 @@ body h2.ProductItem-related-label{
               
    /*Between 851px and 1050px*/ 
    @media screen and (min-width: 53.1875rem) and (max-width: 65.625rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
- * {display: none !important;}
+
      .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator {font-size: 300% !important;margin-bottom: 6rem !important;}
      
      .burger-inner {
@@ -235,7 +235,7 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
 
      /*Between 1051px and 1250px*/ 
      @media screen and (min-width: 65.6875rem) and (max-width: 78.125rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
-          .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
+         * {display: none !important;}  .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
              font-size: 200% !important; position: relative; top: -5% !important; left: -% !important;  
             }
        #article {
