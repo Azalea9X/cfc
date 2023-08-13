@@ -229,7 +229,7 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
     body .grid-title {
        margin-left: 19rem !important; max-width: 1000px !important;
       transform: scale(.9) translateX(-20rem) !important; }
-* {display: none !important;}
+ 
 
 }
 
