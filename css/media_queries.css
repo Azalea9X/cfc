@@ -30,7 +30,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
  position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
   
   
-  body article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 8.3rem !important;}
+  body article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 2.3rem !important;}
   
   body article#article h2, .fashion-camp h2 {
     font-size: 250% !important; font-weight: bold !important;
