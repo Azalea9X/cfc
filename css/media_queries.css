@@ -41,7 +41,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   margin-bottom: 5rem !important; }
 
   body article#article i.fa-link {
-  transform: translateY(7rem) translateX(8rem) !important;
+  transform: translateY(-25rem) translateX(-3rem) scale(3) !important;
   }
   
   body article#article i.fa-envelope-o{
