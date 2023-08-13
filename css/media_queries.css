@@ -45,8 +45,8 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
 
   body article#article i.fa-link {
-   font-size: 200px !important; transform: scale(3) translateX(-8rem) translateY(4rem) !important;}
-  
+   font-size: 200px !important; transform: translateY(-11.9rem) translateX(18rem) scale(3) !important;
+
 
 
   body article#article i.fa-envelope-o, .fashion-camp i.fa-envelope-o{
