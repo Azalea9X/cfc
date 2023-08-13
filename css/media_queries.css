@@ -74,11 +74,11 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
   
   body h2.ProductItem-related-label, body div.list-grid{
-    transform: translateY(6rem) !important;
+    transform: translateY(-10rem) !important;
   }
   
     body h2.ProductItem-related-label {
-position: relative; left: -2rem !important; transform: scaleX(.9) translateY(5rem) !important; font-weight: bold !important;
+position: relative; left: -2rem !important; transform: scaleX(.9) translateY(-15rem) !important; font-weight: bold !important;
  min-width: 130% !important; max-width: 125% !important; margin-top: 5rem !important;margin-bottom: 8rem !important;}
   [id^="thumb"] {position: relative; left: -1.5rem !important;}
 
