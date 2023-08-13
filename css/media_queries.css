@@ -45,8 +45,8 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
 
   body article#article i.fa-link {
-   font-size: 5rem !important; transform: translateY(-3.9rem) translateX(-8rem) scale(3) !important;
-
+    transform: scale(3) translateX(-8rem) translateY(4rem) !important;}
+  
 
 
   body article#article i.fa-envelope-o, .fashion-camp i.fa-envelope-o{
@@ -93,6 +93,12 @@ position: relative; left: -2rem !important; transform: scaleX(.9) translateY(-15
     position: relative; left: 25rem !important; margin-top: 25rem !important; margin-bottom: 15rem !important;
 
 } 
+
+  body article#article i.fa-link {
+    font-size: 2.31rem !important;position: relative !important; top: -12.3rem !important; left: 30rem !important;
+  }
+  
+}
 
 /*601px and 660px*/
 @media screen and (min-width: 37.56rem) and (max-width: 41.875rem) and (orientation:portrait), (-webkit-min-device-width: 1.5), (-webkit-browser-name:chrome), (-webkit-browser-name:firefox), (-webkit-browser-name: edge){
