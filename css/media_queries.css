@@ -34,7 +34,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   
   body article#article h2, .fashion-camp h2 {
     font-size: 250% !important; font-weight: bold !important;
-  transform: translateX(1rem) scaleX(1) !important;}
+  transform: translateX(-.8rem) scaleX(1) !important;}
   
   body article#article i.fa, .fashion-camp i.fa{
     transform: translateX(-8rem) translateY(-10.5rem) scale(3)!important;
