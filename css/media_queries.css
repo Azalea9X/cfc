@@ -176,7 +176,7 @@ article#article h2{min-width: 800px !important; transform: translateX(1.5rem) sc
   }        
 
  body div.list-grid {
-transform: translateX(-2rem) scaleX(1) !important;  }
+transform: translateX(-4.5rem) scaleX(1) !important;  }
 
 article#article i.fa {
     position: relative; top: -2rem !important; left: -1.2rem !important; transform: scale(2.8) !important; padding: 50px !important; margin-top: 6rem !important; margin-bottom: 10rem !important;
