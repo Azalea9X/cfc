@@ -45,7 +45,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   }
 
   body article#article i.fa-link {
-    transform: scale(3) translateX(-8rem) translateY(4rem) !important;}
+   font-size: 200px !important; transform: scale(3) translateX(-8rem) translateY(4rem) !important;}
   
 
 
