@@ -186,7 +186,7 @@ article#article i.fa {
   min-width: 400px !important;}
 
 body h2.ProductItem-related-label{
-   font-weight: bold !important;  min-width: 155% !important; position: relative !important; left:  7rem !important;
+   font-weight: bold !important;  min-width: 155% !important; position: relative !important; left:  -1rem !important;
   }
  
 }
