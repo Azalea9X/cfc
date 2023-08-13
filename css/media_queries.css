@@ -51,7 +51,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
 
     body article#article i.fa-link{position: relative; top: 8rem !important; left: -1.2rem !important;}
   body div.grid-title {
-    transform: scale(1) translateX(2rem) translateX(-7rem) !important;
+    transform: scale(1) translateX(2rem) translateX(-7rem) !important; margin-left: 3rem !important;
   }
 
   body div.list-grid {
