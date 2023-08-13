@@ -32,52 +32,52 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
   
   body article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 4.3rem !important;}
   
-  body article#article h2 {
+  body article#article h2, .fashion-camp h2 {
     font-size: 250% !important; font-weight: bold !important;
   transform: translateX(1rem) scaleX(1) !important;}
   
-  body article#article i.fa{
+  body article#article i.fa, .fashion-camp i.fa{
     transform: translateX(-8rem) translateY(-10.5rem) scale(3)!important;
   margin-bottom: 5rem !important; }
 
-  body article#article i.fa-link {
+  body article#article i.fa-link .fashion-camp i.fa-link{
   transform: translateY(-18.9rem) translateX(4rem) scale(3) !important;
   }
   
-  body article#article i.fa-envelope-o{
+  body article#article i.fa-envelope-o, .fashion-camp i.fa-envelope-o{
     font-size: 5rem !important; transform:translateY(-0rem)  translateX(-12.8rem) !important;
   }
   
 
-    body article#article i.fa-link{position: relative; top: 8rem !important; left: -1.2rem !important;}
+    body article#article i.fa-link, .fashion-camp i.fa-link{position: relative; top: 8rem !important; left: -1.2rem !important;}
   body div.grid-title {
     transform: scale(1) translateX(2rem) translateX(-7rem) !important; margin-left: 4.3rem !important;
   }
 
-  body div.list-grid {
+  body div.list-grid, .fashion-camp div.list-grid {
     transform: scaleX(.8) translateY(-19rem) !important;
   }
   
-  [id^="thumb"]{
+  [id^="thumb"], .fashion-camp [id^="thumb"]{
     min-width: 110% !important;
   }
-  article#article img {
+  article#article img, .fashion-camp article#article img {
     transform: scale(1) translateX(-4rem) !important;
   }
   
-  body article#article P {
+  body article#article P, .fashion-camp article#article p {
     position: relative !important; left: -4rem !important; min-width: 90% !important;max-width: 350px !important;
   }
   
-  body article#article p:last-of-type{
+  body article#article p:last-of-type, .fashion-camp article#article p:last-of-type{
     margin-bottom: 15rem !important;
   }
   
-  body h2.ProductItem-related-label, body div.list-grid{
+  body h2.ProductItem-related-label, body div.list-grid,   .fashion-camp h2.ProductItem-related-label, .fashion-camp div.list-grid{
     transform: translateY(-10rem) !important;
   }
   
-    body h2.ProductItem-related-label {
+    .fashion-camp h2.ProductItem-related-label {
 position: relative; left: -2rem !important; transform: scaleX(.9) translateY(-15rem) !important; font-weight: bold !important;
  min-width: 130% !important; max-width: 125% !important; margin-top: 5rem !important;margin-bottom: 8rem !important;}
   [id^="thumb"] {position: relative; left: -1.5rem !important;}
