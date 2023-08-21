@@ -27,14 +27,14 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
   .burger-inner {
- position: relative !important; transform: translateX(-12rem) translateY(1rem) scale(3) !important; ;}
+ position: relative !important; transform: translateX(-16rem) translateY(1rem) scale(3) !important; ;}
   
   
   body article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 4.3rem !important;}
   
   body article#article h2, .fashion-camp h2 {
     font-size: 250% !important; font-weight: bold !important;
-  transform: translateX(-1rem) scaleX(1) !important;}
+  transform: translateX(-3rem) scaleX(1) !important;}
   
   body article#article i.fa, .fashion-camp i.fa{
     transform: translateX(-8rem) translateY(-10.5rem) scale(3)!important;
@@ -69,11 +69,11 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
     min-width: 110% !important;
   }
   article#article img, .fashion-camp article#article img {
-    transform: scale(1) translateX(-4rem) !important;
+    transform: scale(1) translateX(-4.3rem) !important;
   }
   
   body article#article P, .fashion-camp article#article p {
-    position: relative !important; left: -4rem !important; min-width: 90% !important;max-width: 350px !important;
+ position: relative !important; left: -5rem !important; min-width: 105% !important;max-width: 350px !important; font-size: 200% !important;
   }
   
   body article#article p:last-of-type, .fashion-camp article#article p:last-of-type{
@@ -95,18 +95,18 @@ position: relative; left: -2rem !important; transform: scaleX(.9) translateY(-15
 } 
 
   body article#article i.fa-link {
-    font-size: 2.31rem !important;position: relative !important; top: -12.3rem !important; left: 30rem !important;
+    font-size: 2.19rem !important;position: relative !important; top: -12.19rem !important; left: 30rem !important;
   }
  body h2.ProductItem-related-label{
 font-size: 50px !important; transform: translateX(3rem) translateY(-10rem) !important;
   }
   
  body div.grid-title{
-    transform: translateX(-50px) !important;
+    transform: translateX(-4rem) translateY(-2rem) !important;
   }
   
   body div.list-grid {
-    transform: translateX(.5rem) !important;
+    transform: translateY(-8rem) translateX(.05rem) !important;
   }
 }
 
@@ -135,8 +135,8 @@ body article#article img {
     margin-bottom: 50px !important; position: relative; left: -1rem !important;
   transform: scaleX(1.6) !important;}
   
-  body article#article p {
-    position: relative !important; left: -8% !important; min-width: 115% !important;}
+  body article#article p {font-size: 200% !important;
+    position: relative !important; left: -8% !important; min-width: 120% !important;}
 
   h2.ProductItem-related-label, div.list-grid {
     position: relative; left: 13rem !important;
@@ -163,9 +163,9 @@ transform: translateX(3rem) scale(3) !important;
   body article#article i.fa-envelope-o{
     font-size: 5rem !important; transform:translateY(.8rem)  scale(1.2) translateX(-19.9rem) !important;
   }
-div.grid-title{font-size: 600% !important;margin-left: 2.5rem !important; max-width: 700px !important;}
+div.grid-title{font-size: 400% !important;margin-left: -.5rem !important; max-width: 700px !important;}
   article#article p {text-align: left !important; position: relative; left: -28% !important; top: -3rem !important;min-width: 160% !important; font-size: 1.5rem !important; margin-bottom: 4rem !important;}
- body h2.ProductItem-related-label {font-size: 200% !important; font-weight: bold !important; transform:translateY(-5rem) translateX(8rem) !important;}
+ body h2.ProductItem-related-label {font-size:300% !important; font-weight: bold !important; transform:translateY(-5rem) translateX(8rem) !important;}
    
   body div.list-grid {
     transform: translateX(-13rem) translateY(-39rem) !important;
@@ -186,16 +186,16 @@ div.grid-title{font-size: 600% !important;margin-left: 2.5rem !important; max-wi
              margin-top: 20px !important; margin-bottom: 20px !important; font-size: 150% !important; position: relative; top: -5% !important; left: -% !important;  
             }
   
-  article#article {
+ body article#article {position: relative; top: -13rem !important;
   margin-bottom: 10rem !important; margin-top: 150px !important;}
-position: relative; top: -13rem !important; left: 2rem !important;
-
-.burger-inner {position: relative !important; transform: translateX(-15rem) scale(1.5) !important; margin-bottom: 30px !important;}
-
  
 
+.burger-inner {position: relative !important; transform: translateX(-20rem) translateY(3rem) scale(3) !important; margin-bottom: 30px !important;}
 
-  article#article * {max-width: 90% !important; }
+
+
+
+  article#article *, article#article p, article#article h2, h2.ProductItem-related-label, div.list-grid, i.fa {max-width: 90% !important; position: relative; top: 0rem !important; }
 
 article#article img {
     margin-bottom: 50px !important; transform: translateX(2.5rem) scaleX(1.6) !important;
@@ -208,14 +208,14 @@ body article#article p {position: relative; left: -5.0% !important; font-size: 3
 article#article h2{min-width: 800px !important; transform: translateX(-3.5rem) scaleX(.8) !important;}
 
   body h2.ProductItem-related-label, body div.list-grid {margin-bottom: 10px;
-    position: relative; left: 3rem !important; top: -18rem !important;
+    position: relative; left: 3rem !important; top: -33rem !important;
   }        
 
  body div.list-grid {
-transform: translateX(-3.5rem) scaleX(1.25) !important;  }
+ min-width:85vw !important; max-width: 900px !important;  transform: translateX(-2.8rem) !important;}
 
 article#article i.fa {
-    position: relative; top: -2rem !important; left: -1.2rem !important; transform: scale(3) !important; padding: 50px !important; margin-top: 6rem !important; margin-bottom: 10rem !important;
+    position: relative; top: -3rem !important; left: -1.2rem !important; transform: scale(3) !important; padding: 50px !important; margin-top: 6rem !important; margin-bottom: 10rem !important;
   }
   
   article#article i.fa-link {
@@ -226,8 +226,8 @@ article#article i.fa {
     transform: translateX(7rem) scale(3) !important;
   }
   body .grid-title {
-    font-size: 400% !important; margin-left: 1rem !important; 
-  min-width: 300px !important; max-width: 400px !important; margin-left: 2rem !important;}
+    font-size: 300% !important; margin-left: 3rem !important; 
+ }
 
 body h2.ProductItem-related-label{
    font-weight: bold !important;  min-width: 125% !important; position: relative !important; left:  2rem !important;
@@ -254,7 +254,7 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
   }
   h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
 
-  body article#article h2{min-width: 800px !important; transform: translateX(2rem) scaleX(1.2) !important;}
+  body article#article h2{min-width: 800px !important; transform: translate(-1rem) scaleX(1.2) !important;}
 
   h2.ProductItem-related-label{margin-bottom: 10px;
     position: relative; left: 2rem !important; top: -24rem !important;
@@ -262,17 +262,17 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
   
 
      h2.ProductItem-related-label, div.list-grid {
-       position: relative; top: -36rem !important; left: -5.5rem !important;margin-bottom: 5rem !important;
+       position: relative; top: -40rem !important; left: -5.5rem !important;margin-bottom: 5rem !important;
 }
   i.fa {
-    position: relative; top: -3.5rem !important; left: 1rem !important; transform: scale(3) !important; padding: 50px !important; margin-top: 5rem !important; margin-bottom: 4rem !important;
+    position: relative; top: -7.5rem !important; left: -3rem !important; transform: scale(3) !important; padding: 50px !important; margin-top: 5rem !important; margin-bottom: 4rem !important;
   }
 
- body div.list-grid {min-width: 800px !important; max-width: 900px !important;  position: relative; top: -36rem !important; left: -3rem !important;} 
-  body article#article p {font-size: 200% !important; position: relative;  margin-bottom: 30px !important; top: -3rem !important; left: -8.2rem !important; min-width: 150% !important; max-width: 160% !important;}    
+ body div.list-grid {min-width: 900px !important; max-width: 1000px !important;  position: relative; top: -40rem !important; left: -7rem !important;} 
+  body article#article p {font-size: 200% !important; position: relative;  margin-bottom: 30px !important; top: -3rem !important; left: -10.2rem !important; min-width: 150% !important; max-width: 160% !important;}    
     body .grid-title {
        margin-left: 19rem !important; max-width: 1000px !important;
-      transform: scale(.9) translateX(-20rem) !important; }
+      transform: scale(1) translateX(-15rem) !important; }
  
 
 }
@@ -640,7 +640,7 @@ transform: translateX(-5rem) scaleX(2.5) !important;    margin-bottom: 50px !imp
   }
   h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
 
-  article#article h2{min-width: 800px !important; transform: translateX(-rem) !important;}
+  article#article h2{min-width: 800px !important; transform: translateX(-0rem) !important;}
 
 
      h2.ProductItem-related-label, div.list-grid {
@@ -678,7 +678,7 @@ position: relative; left: 2rem !important;
        margin-bottom: 50px !important; position: relative; left: -7rem !important; transform: scaleX(2.7) !important;
      }
      h2, p, .grid-title {text-align: left !important; margin-bottom: 20px !important;}
-     article#article p {font-size: 300% !important; min-width: 115% !important; position: relative; left: -10.5rem !important; top: -1rem !important; max-width: 105% !important;transform: scaleX(1) !important; }
+     article#article p {font-size: 300% !important; min-width: 110% !important; position: relative; left: -10.5rem !important; top: -1rem !important; max-width: 105% !important;transform: scaleX(1) !important; }
      article#article h2{min-width: 1000px !important; transform: translateX(-3rem) scaleX(1.1) !important;}
    
      
@@ -686,15 +686,15 @@ position: relative; left: 2rem !important;
           position: relative; top: -38rem !important; min-width: 120% !important;
         }
      article#article i.fa {
-     transform: scale(4) !important; padding: 70px !important;  position: relative; top: -20rem !important; left: -9rem !important;
+     transform: scale(4) !important; padding: 70px !important;  position: relative; top: -20rem !important; left: -13rem !important;
     margin-top: 20rem !important; margin-bottom: 5rem !important; }
 
        div.grid-title{margin-left:1.5rem !important; min-width: 400px !important; font-size: 400% !important;}
 div.list-grid {min-width: 950px !important; max-width: 1300px !important; transform: translateX(-8rem) translateY(-15rem) !important; }  
 
             h2.ProductItem-related-label{margin-bottom: 10rem !important;
-       position: relative; left: -1rem !important; top: -rem !important;
-     min-width: 850px !important; transform: translateY(-8rem) scaleX(1.2) !important;}        
+       position: relative; left: -5rem !important; top: -rem !important;
+     min-width: 850px !important; transform: translateY(-8rem) scaleX(.8) !important;}        
 
      }
 
