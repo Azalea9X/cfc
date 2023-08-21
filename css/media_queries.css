@@ -27,7 +27,7 @@ position: relative !important; top: 0rem !important; left: 0rem !important;
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  
             }
   .burger-inner {
- position: relative !important; transform: translateX(-16rem) translateY(1rem) scale(3) !important; ;}
+ position: relative !important; transform: translateX(-10rem) translateY(1rem) scale(3) !important; margin-bottom: 1rem !important;}
   
   
   body article#article {min-width: 301px !important; max-width: 115% !important; margin-bottom: 30px !important; position: relative; top: -8rem !important; left: 4.3rem !important;}
@@ -102,7 +102,7 @@ font-size: 50px !important; transform: translateX(3rem) translateY(-10rem) !impo
   }
   
  body div.grid-title{
-    transform: translateX(-4rem) translateY(-2rem) !important;
+    transform: translateX(-4rem) translateY(1rem) !important;
   }
   
   body div.list-grid {
@@ -119,7 +119,7 @@ font-size: 50px !important; transform: translateX(3rem) translateY(-10rem) !impo
   .ProductItem-nav-breadcrumb-link, .ProductItem-nav-breadcrumb-separator{
             clear: both !important; margin-top: 20px !important; margin-bottom: 20px !important; font-size: 200% !important; position: relative; top: -5% !important; left: -5% !important;  }
             
-  .burger-inner { position: relative !important; transform: translateX(-15rem) scale(1.5) !important; ;}
+  .burger-inner { position: relative !important;  transform: translateX(-15rem) scale(1.5) !important; ;}
    
  body article#article {
    margin-top: 5rem !important; position: relative; top: -10rem !important; left: 1rem !important; min-width: 500px !important; max-width: 500px !important; margin-bottom: 100px !important;
